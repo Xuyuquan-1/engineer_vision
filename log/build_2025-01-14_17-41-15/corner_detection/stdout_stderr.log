@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target corner_detection_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/corner_detection_node.dir/src/corner_detection.cpp.o[0m
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:29:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   29 |         std::vector<double>([01;31m[K)[m[K.swap(this->corner_x);
+      |                             [01;31m[K^[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:30:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   30 |         std::vector<double>([01;31m[K)[m[K.swap(this->corner_y);
+      |                             [01;31m[K^[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:[m[K In member function ‘[01m[Kvoid CornerPublisher::PublishCorner2D(std::vector<cv::Point_<int> >&)[m[K’:
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:35:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcorners_2d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   35 |         void PublishCorner2D([01;35m[Kstd::vector<cv::Point> &corners_2d[m[K){
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:[m[K In function ‘[01m[Kstd::vector<cv::Point_<int> > CornerDetect(cv::Mat&)[m[K’:
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:152:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  152 |                 for(int i=0;[01;35m[Ki<mul_polys.size()-1[m[K;i++){
+      |                             [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:154:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  154 |                         for(int j=0;[01;35m[Kj<mul_polys.size()-1[m[K;j++){
+      |                                     [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:176:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  176 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+      |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:236:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  236 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+      |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:240:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  240 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+      |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:244:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  244 |                         if([01;35m[Ki == mul_polys.size()-1[m[K){
+      |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/corner_detection_node.dir/build.make:76：CMakeFiles/corner_detection_node.dir/src/corner_detection.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/corner_detection_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

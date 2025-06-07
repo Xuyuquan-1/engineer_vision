@@ -1,0 +1,64 @@
+[0.018s] Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/camera_display -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/camera_display
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.402s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.480s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.481s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.506s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.508s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.557s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.557s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.633s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.666s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.708s] -- Looking for pthread.h
+[0.772s] -- Looking for pthread.h - found
+[0.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.837s] -- Found Threads: TRUE  
+[0.868s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[0.909s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.912s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.968s] -- Configuring done
+[0.977s] -- Generating done
+[0.980s] -- Build files have been written to: /home/xyq/Desktop/ros_ws/build/camera_display
+[0.995s] Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/camera_display -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/camera_display
+[0.997s] Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_display -- -j20 -l20
+[1.047s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_display.dir/src/camera_display.cpp.o[0m
+[4.293s] [100%] [32m[1mLinking CXX executable camera_display[0m
+[4.614s] [100%] Built target camera_display
+[4.625s] Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_display -- -j20 -l20
+[4.626s] Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_display
+[4.631s] -- Install configuration: ""
+[4.631s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/lib/camera_display/camera_display
+[4.632s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_display/lib/camera_display/camera_display" to ""
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/ament_index/resource_index/package_run_dependencies/camera_display
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/ament_index/resource_index/parent_prefix_path/camera_display
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/environment/ament_prefix_path.sh
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/environment/ament_prefix_path.dsv
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/environment/path.sh
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/environment/path.dsv
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/local_setup.bash
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/local_setup.sh
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/local_setup.zsh
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/local_setup.dsv
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.dsv
+[4.632s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/ament_index/resource_index/packages/camera_display
+[4.633s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/cmake/camera_displayConfig.cmake
+[4.633s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/cmake/camera_displayConfig-version.cmake
+[4.633s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.xml
+[4.634s] Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_display

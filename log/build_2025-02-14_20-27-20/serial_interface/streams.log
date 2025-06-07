@@ -1,0 +1,47 @@
+[0.008s] Invoking command in '/home/xyq/Desktop/ros_ws/build/serial_interface': NAUTILUS_SCRIPT_SELECTED_FILE_PATHS=/home/xyq/Desktop/ros_ws/install NAUTILUS_SCRIPT_SELECTED_URIS=file:///home/xyq/Desktop/ros_ws/install /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/serial_interface -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/serial_interface
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.423s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.458s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.595s] Error parsing '/home/xyq/Desktop/ros_ws/src/serial_interface/package.xml':
+[0.628s] Traceback (most recent call last):
+[0.628s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.628s]     main()
+[0.628s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.628s]     raise e
+[0.628s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.628s]     package = parse_package_string(
+[0.628s]   File "/usr/local/lib/python3.10/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.628s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.628s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/xyq/Desktop/ros_ws/src/serial_interface/package.xml':
+[0.628s] Error(s):
+[0.628s] - The generic dependency on 'rosidl_default_generators' is redundant with: build_depend
+[0.645s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.645s]   execute_process(/usr/bin/python3
+[0.645s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.645s]   /home/xyq/Desktop/ros_ws/src/serial_interface/package.xml
+[0.645s]   /home/xyq/Desktop/ros_ws/build/serial_interface/ament_cmake_core/package.cmake)
+[0.646s]   returned error code 1
+[0.646s] Call Stack (most recent call first):
+[0.646s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.646s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.646s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.646s] 
+[0.646s] [0m
+[0.646s] -- Configuring incomplete, errors occurred!
+[0.646s] See also "/home/xyq/Desktop/ros_ws/build/serial_interface/CMakeFiles/CMakeOutput.log".
+[0.654s] Invoked command in '/home/xyq/Desktop/ros_ws/build/serial_interface' returned '1': NAUTILUS_SCRIPT_SELECTED_FILE_PATHS=/home/xyq/Desktop/ros_ws/install NAUTILUS_SCRIPT_SELECTED_URIS=file:///home/xyq/Desktop/ros_ws/install /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/serial_interface -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/serial_interface

@@ -1,0 +1,229 @@
+[0.014s] Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_interface -- -j20 -l20
+[0.036s] -- Found camera_interface: 0.0.0 (/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake)
+[0.133s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.137s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.150s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.157s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.183s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.185s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.243s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.262s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.290s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.297s] -- Looking for pthread.h
+[0.354s] -- Looking for pthread.h - found
+[0.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.404s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.405s] -- Found Threads: TRUE  
+[0.432s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.438s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.607s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.916s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.934s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.934s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.934s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.942s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.948s] -- Added test 'lint_cmake' to check CMake code style
+[0.948s] -- Added test 'xmllint' to check XML markup files
+[0.949s] -- Configuring done
+[0.965s] -- Generating done
+[0.971s] -- Build files have been written to: /home/xyq/Desktop/ros_ws/build/camera_interface
+[0.996s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_generator_c[0m
+[1.003s] [  3%] Built target camera_interface__cpp
+[1.003s] [  6%] [32mBuilding C object CMakeFiles/camera_interface__rosidl_generator_c.dir/rosidl_generator_c/camera_interface/msg/detail/corner__functions.c.o[0m
+[1.011s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_cpp[0m
+[1.011s] [  6%] Built target ament_cmake_python_copy_camera_interface
+[1.012s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_introspection_cpp[0m
+[1.013s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_fastrtps_cpp[0m
+[1.019s] [  9%] [32mBuilding CXX object CMakeFiles/camera_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_interface/msg/corner__type_support.cpp.o[0m
+[1.024s] [ 12%] [32mBuilding CXX object CMakeFiles/camera_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_interface/msg/detail/corner__type_support.cpp.o[0m
+[1.026s] [ 16%] [32mBuilding CXX object CMakeFiles/camera_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_interface/msg/detail/dds_fastrtps/corner__type_support.cpp.o[0m
+[1.032s] [ 19%] [32m[1mLinking C shared library libcamera_interface__rosidl_generator_c.so[0m
+[1.059s] [ 22%] Built target camera_interface__rosidl_generator_c
+[1.067s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_fastrtps_c[0m
+[1.069s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_c[0m
+[1.069s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_introspection_c[0m
+[1.077s] [ 25%] [32mBuilding CXX object CMakeFiles/camera_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_interface/msg/detail/corner__type_support_c.cpp.o[0m
+[1.078s] [ 29%] [32mBuilding CXX object CMakeFiles/camera_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_interface/msg/corner__type_support.cpp.o[0m
+[1.079s] [ 32%] [32mBuilding C object CMakeFiles/camera_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_interface/msg/detail/corner__type_support.c.o[0m
+[1.096s] [ 35%] [32m[1mLinking CXX shared library libcamera_interface__rosidl_typesupport_c.so[0m
+[1.101s] [ 38%] [32m[1mLinking C shared library libcamera_interface__rosidl_typesupport_introspection_c.so[0m
+[1.122s] [ 41%] Built target camera_interface__rosidl_typesupport_introspection_c
+[1.125s] [ 45%] Built target camera_interface__rosidl_typesupport_c
+[1.164s] [ 48%] [32m[1mLinking CXX shared library libcamera_interface__rosidl_typesupport_cpp.so[0m
+[1.172s] running egg_info
+[1.172s] writing camera_interface.egg-info/PKG-INFO
+[1.172s] writing dependency_links to camera_interface.egg-info/dependency_links.txt
+[1.172s] writing top-level names to camera_interface.egg-info/top_level.txt
+[1.174s] reading manifest file 'camera_interface.egg-info/SOURCES.txt'
+[1.174s] writing manifest file 'camera_interface.egg-info/SOURCES.txt'
+[1.199s] [ 48%] Built target ament_cmake_python_build_camera_interface_egg
+[1.202s] [ 51%] Built target camera_interface__rosidl_typesupport_cpp
+[1.268s] [ 54%] [32m[1mLinking CXX shared library libcamera_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.284s] [ 58%] [32m[1mLinking CXX shared library libcamera_interface__rosidl_typesupport_fastrtps_c.so[0m
+[1.321s] [ 61%] Built target camera_interface__rosidl_typesupport_fastrtps_cpp
+[1.321s] [ 64%] [32m[1mLinking CXX shared library libcamera_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.339s] [ 67%] Built target camera_interface__rosidl_typesupport_fastrtps_c
+[1.374s] [ 70%] Built target camera_interface__rosidl_typesupport_introspection_cpp
+[1.392s] [ 70%] Built target camera_interface
+[1.410s] [ 74%] Built target camera_interface__py
+[1.420s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_generator_py[0m
+[1.430s] [ 77%] [32mBuilding C object CMakeFiles/camera_interface__rosidl_generator_py.dir/rosidl_generator_py/camera_interface/msg/_corner_s.c.o[0m
+[1.494s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/camera_interface/libcamera_interface__rosidl_generator_py.so[0m
+[1.526s] [ 80%] Built target camera_interface__rosidl_generator_py
+[1.535s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_introspection_c__pyext[0m
+[1.535s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_c__pyext[0m
+[1.535s] [35m[1mConsolidate compiler generated dependencies of target camera_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.544s] [ 90%] [32mBuilding C object CMakeFiles/camera_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/camera_interface/_camera_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.544s] [ 90%] [32mBuilding C object CMakeFiles/camera_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/camera_interface/_camera_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.544s] [ 90%] [32mBuilding C object CMakeFiles/camera_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/camera_interface/_camera_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[1.599s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/camera_interface/camera_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.603s] [100%] [32m[1mLinking C shared library rosidl_generator_py/camera_interface/camera_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.603s] [100%] [32m[1mLinking C shared library rosidl_generator_py/camera_interface/camera_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.627s] [100%] Built target camera_interface__rosidl_typesupport_c__pyext
+[1.629s] [100%] Built target camera_interface__rosidl_typesupport_introspection_c__pyext
+[1.634s] [100%] Built target camera_interface__rosidl_typesupport_fastrtps_c__pyext
+[1.643s] Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_interface -- -j20 -l20
+[1.644s] Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_interface
+[1.652s] -- Install configuration: ""
+[1.652s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/ament_index/resource_index/rosidl_interfaces/camera_interface
+[1.652s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface
+[1.652s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg
+[1.652s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/corner.h
+[1.652s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail
+[1.652s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__type_support.h
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__struct.h
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__functions.h
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__functions.c
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/rosidl_generator_c__visibility_control.h
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/environment/library_path.sh
+[1.653s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/environment/library_path.dsv
+[1.653s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_generator_c.so
+[1.653s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_generator_c.so" to ""
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__rosidl_typesupport_fastrtps_c.h
+[1.653s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.653s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_fastrtps_c.so
+[1.654s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/corner.hpp
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__type_support.hpp
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__builder.hpp
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__struct.hpp
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__traits.hpp
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail
+[1.654s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__rosidl_typesupport_fastrtps_cpp.hpp
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/dds_fastrtps
+[1.655s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.655s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__rosidl_typesupport_introspection_c.h
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__type_support.c
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.655s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_introspection_c.so
+[1.655s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_introspection_c.so" to ""
+[1.655s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_c.so
+[1.655s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_c.so" to ""
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface
+[1.655s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg
+[1.656s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail
+[1.656s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__type_support.cpp
+[1.656s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/include/camera_interface/camera_interface/msg/detail/corner__rosidl_typesupport_introspection_cpp.hpp
+[1.656s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_introspection_cpp.so
+[1.656s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[1.656s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_cpp.so
+[1.656s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_typesupport_cpp.so" to ""
+[1.656s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/environment/pythonpath.sh
+[1.656s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/environment/pythonpath.dsv
+[1.656s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface-0.0.0-py3.10.egg-info
+[1.656s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.656s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[1.656s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface-0.0.0-py3.10.egg-info/top_level.txt
+[1.656s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.656s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface
+[1.656s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/msg
+[1.657s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/msg/_corner_s.c
+[1.657s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/msg/__init__.py
+[1.657s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/msg/_corner.py
+[1.657s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/_camera_interface_s.ep.rosidl_typesupport_introspection_c.c
+[1.657s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/__init__.py
+[1.657s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.657s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.657s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/_camera_interface_s.ep.rosidl_typesupport_c.c
+[1.657s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/libcamera_interface__rosidl_generator_py.so
+[1.657s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/_camera_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.657s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.677s] Listing '/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface'...
+[1.677s] Compiling '/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/__init__.py'...
+[1.677s] Listing '/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/msg'...
+[1.680s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.680s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.680s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.680s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.680s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.681s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages/camera_interface/camera_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.681s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_generator_py.so
+[1.681s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/camera_interface/lib/libcamera_interface__rosidl_generator_py.so" to ""
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/msg/Corner.idl
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/msg/Corner.msg
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/ament_index/resource_index/package_run_dependencies/camera_interface
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/ament_index/resource_index/parent_prefix_path/camera_interface
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/environment/ament_prefix_path.sh
+[1.681s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/environment/ament_prefix_path.dsv
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/environment/path.sh
+[1.681s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/environment/path.dsv
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/local_setup.bash
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/local_setup.sh
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/local_setup.zsh
+[1.681s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/local_setup.dsv
+[1.681s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.dsv
+[1.681s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/ament_index/resource_index/packages/camera_interface
+[1.681s] -- Old export file "/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_cExport-noconfig.cmake].
+[1.681s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_cExport.cmake
+[1.681s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_cExport-noconfig.cmake
+[1.681s] -- Old export file "/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_cppExport.cmake
+[1.682s] -- Old export file "/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.682s] -- Old export file "/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.682s] -- Old export file "/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_cExport-noconfig.cmake].
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_cExport.cmake
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.682s] -- Old export file "/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.682s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.682s] -- Old export file "/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_cppExport-noconfig.cmake].
+[1.683s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_cppExport.cmake
+[1.683s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.683s] -- Old export file "/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_pyExport-noconfig.cmake].
+[1.683s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_pyExport.cmake
+[1.683s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/export_camera_interface__rosidl_generator_pyExport-noconfig.cmake
+[1.683s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/rosidl_cmake-extras.cmake
+[1.683s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.683s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.683s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.683s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.683s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.683s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.683s] -- Installing: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interfaceConfig.cmake
+[1.683s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake/camera_interfaceConfig-version.cmake
+[1.683s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.xml
+[1.685s] Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_interface

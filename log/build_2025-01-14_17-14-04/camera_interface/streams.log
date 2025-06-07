@@ -1,0 +1,23 @@
+[0.015s] Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_interface -- -j20 -l20
+[0.050s] [  3%] Built target camera_interface__cpp
+[0.052s] [ 12%] Built target camera_interface__rosidl_generator_c
+[0.065s] [ 12%] Built target ament_cmake_python_copy_camera_interface
+[0.070s] [ 22%] Built target camera_interface__rosidl_typesupport_c
+[0.070s] [ 32%] Built target camera_interface__rosidl_typesupport_cpp
+[0.070s] [ 41%] Built target camera_interface__rosidl_typesupport_fastrtps_c
+[0.070s] [ 51%] Built target camera_interface__rosidl_typesupport_introspection_c
+[0.071s] [ 61%] Built target camera_interface__rosidl_typesupport_introspection_cpp
+[0.071s] [ 70%] Built target camera_interface__rosidl_typesupport_fastrtps_cpp
+[0.088s] [ 70%] Built target camera_interface
+[0.105s] [ 74%] Built target camera_interface__py
+[0.124s] [ 80%] Built target camera_interface__rosidl_generator_py
+[0.142s] [ 87%] Built target camera_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.142s] [ 93%] Built target camera_interface__rosidl_typesupport_c__pyext
+[0.143s] [100%] Built target camera_interface__rosidl_typesupport_introspection_c__pyext
+[0.202s] running egg_info
+[0.203s] writing camera_interface.egg-info/PKG-INFO
+[0.203s] writing dependency_links to camera_interface.egg-info/dependency_links.txt
+[0.203s] writing top-level names to camera_interface.egg-info/top_level.txt
+[0.204s] reading manifest file 'camera_interface.egg-info/SOURCES.txt'
+[0.205s] writing manifest file 'camera_interface.egg-info/SOURCES.txt'
+[0.229s] [100%] Built target ament_cmake_python_build_camera_interface_egg

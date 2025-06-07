@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000657] (-) JobUnselected: {'identifier': 'camera_display'}
+[0.000732] (-) JobUnselected: {'identifier': 'camera_interface'}
+[0.001004] (-) JobUnselected: {'identifier': 'corner_detection'}
+[0.001113] (-) JobUnselected: {'identifier': 'image_display'}
+[0.001139] (-) JobUnselected: {'identifier': 'image_processing'}
+[0.001162] (-) JobUnselected: {'identifier': 'mindvision_camera'}
+[0.001193] (pose_resolve) JobQueued: {'identifier': 'pose_resolve', 'dependencies': OrderedDict([('camera_interface', '/home/xyq/Desktop/ros_ws/install/camera_interface')])}
+[0.001325] (pose_resolve) JobStarted: {'identifier': 'pose_resolve'}
+[0.010192] (pose_resolve) JobProgress: {'identifier': 'pose_resolve', 'progress': 'cmake'}
+[0.011778] (pose_resolve) JobProgress: {'identifier': 'pose_resolve', 'progress': 'build'}
+[0.011874] (pose_resolve) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xyq/Desktop/ros_ws/build/pose_resolve', '--', '-j20', '-l20'], 'cwd': '/home/xyq/Desktop/ros_ws/build/pose_resolve', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MY_PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xyq'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/xyq/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/179/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xyq'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.96.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/179/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/xyq/.nvm/versions/node/v20.18.1/bin'), ('NVM_INC', '/home/xyq/.nvm/versions/node/v20.18.1/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/xyq/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/179/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/179/usr/share/code/code'), ('MANAGERPID', '1847'), ('SYSTEMD_EXEC_PID', '2201'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '80105'), ('NVM_DIR', '/home/xyq/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xyq'), ('JOURNAL_STREAM', '8:9461'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'xyq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/xyq-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/2182,unix/xyq-Legion-Y7000P-IRH8:/tmp/.ICE-unix/2182'), ('GTK_EXE_PREFIX', '/snap/code/179/usr'), ('INVOCATION_ID', '67e67c5f433b486d9232e50159c2bfdb'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/179/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/xyq/snap/code/179/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-daa9d8dc5c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/xyq/snap/code/179/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xyq/Desktop/ros_ws/build/pose_resolve'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/xyq/snap/code/179/.local/share:/home/xyq/snap/code/179:/snap/code/179/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble')]), 'shell': False}
+[0.063010] (pose_resolve) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pose_resolve_node\x1b[0m\n'}
+[0.086017] (pose_resolve) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o\x1b[0m\n'}
+[0.097497] (-) TimerEvent: {}
+[0.198166] (-) TimerEvent: {}
+[0.299518] (-) TimerEvent: {}
+[0.400284] (-) TimerEvent: {}
+[0.501093] (-) TimerEvent: {}
+[0.601595] (-) TimerEvent: {}
+[0.701940] (-) TimerEvent: {}
+[0.802675] (-) TimerEvent: {}
+[0.903437] (-) TimerEvent: {}
+[1.004073] (-) TimerEvent: {}
+[1.104499] (-) TimerEvent: {}
+[1.204943] (-) TimerEvent: {}
+[1.305536] (-) TimerEvent: {}
+[1.406201] (-) TimerEvent: {}
+[1.506763] (-) TimerEvent: {}
+[1.607131] (-) TimerEvent: {}
+[1.707577] (-) TimerEvent: {}
+[1.808027] (-) TimerEvent: {}
+[1.908359] (-) TimerEvent: {}
+[2.008818] (-) TimerEvent: {}
+[2.109171] (-) TimerEvent: {}
+[2.209594] (-) TimerEvent: {}
+[2.310183] (-) TimerEvent: {}
+[2.411352] (-) TimerEvent: {}
+[2.511660] (-) TimerEvent: {}
+[2.611963] (-) TimerEvent: {}
+[2.712354] (-) TimerEvent: {}
+[2.812908] (-) TimerEvent: {}
+[2.913705] (-) TimerEvent: {}
+[3.014357] (-) TimerEvent: {}
+[3.114658] (-) TimerEvent: {}
+[3.214965] (-) TimerEvent: {}
+[3.315361] (-) TimerEvent: {}
+[3.415891] (-) TimerEvent: {}
+[3.516570] (-) TimerEvent: {}
+[3.617052] (-) TimerEvent: {}
+[3.717733] (-) TimerEvent: {}
+[3.768269] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid PoseResolveCallback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.768780] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:81:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenum constant in boolean context [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context\x07-Wint-in-bool-context\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.768875] (pose_resolve) StderrLine: {'line': b'   81 |     cv::solvePnP(corner_3d, corner_2d, K, C, rvet, tvet, \x1b[01;35m\x1b[Kcv::SOLVEPNP_P3P\x1b[m\x1b[K);\n'}
+[3.768956] (pose_resolve) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.817908] (-) TimerEvent: {}
+[3.918541] (-) TimerEvent: {}
+[4.019260] (-) TimerEvent: {}
+[4.119771] (-) TimerEvent: {}
+[4.220268] (-) TimerEvent: {}
+[4.320974] (-) TimerEvent: {}
+[4.421538] (-) TimerEvent: {}
+[4.522157] (-) TimerEvent: {}
+[4.622992] (-) TimerEvent: {}
+[4.723572] (-) TimerEvent: {}
+[4.823898] (-) TimerEvent: {}
+[4.924304] (-) TimerEvent: {}
+[5.024972] (-) TimerEvent: {}
+[5.125812] (-) TimerEvent: {}
+[5.226193] (-) TimerEvent: {}
+[5.326867] (-) TimerEvent: {}
+[5.427385] (-) TimerEvent: {}
+[5.527910] (-) TimerEvent: {}
+[5.628284] (-) TimerEvent: {}
+[5.730083] (-) TimerEvent: {}
+[5.830562] (-) TimerEvent: {}
+[5.930922] (-) TimerEvent: {}
+[6.031415] (-) TimerEvent: {}
+[6.131673] (-) TimerEvent: {}
+[6.232117] (-) TimerEvent: {}
+[6.332687] (-) TimerEvent: {}
+[6.433082] (-) TimerEvent: {}
+[6.533440] (-) TimerEvent: {}
+[6.633927] (-) TimerEvent: {}
+[6.734480] (-) TimerEvent: {}
+[6.834962] (-) TimerEvent: {}
+[6.935233] (-) TimerEvent: {}
+[7.035608] (-) TimerEvent: {}
+[7.136066] (-) TimerEvent: {}
+[7.236505] (-) TimerEvent: {}
+[7.336766] (-) TimerEvent: {}
+[7.437063] (-) TimerEvent: {}
+[7.537636] (-) TimerEvent: {}
+[7.638370] (-) TimerEvent: {}
+[7.738837] (-) TimerEvent: {}
+[7.839364] (-) TimerEvent: {}
+[7.939930] (-) TimerEvent: {}
+[8.040324] (-) TimerEvent: {}
+[8.140695] (-) TimerEvent: {}
+[8.241037] (-) TimerEvent: {}
+[8.341414] (-) TimerEvent: {}
+[8.441691] (-) TimerEvent: {}
+[8.542190] (-) TimerEvent: {}
+[8.642906] (-) TimerEvent: {}
+[8.743351] (-) TimerEvent: {}
+[8.843870] (-) TimerEvent: {}
+[8.944495] (-) TimerEvent: {}
+[9.028307] (pose_resolve) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pose_resolve_node\x1b[0m\n'}
+[9.044581] (-) TimerEvent: {}
+[9.144938] (-) TimerEvent: {}
+[9.245566] (-) TimerEvent: {}
+[9.346272] (-) TimerEvent: {}
+[9.446789] (-) TimerEvent: {}
+[9.513916] (pose_resolve) StdoutLine: {'line': b'[100%] Built target pose_resolve_node\n'}
+[9.532495] (pose_resolve) CommandEnded: {'returncode': 0}
+[9.533781] (pose_resolve) JobProgress: {'identifier': 'pose_resolve', 'progress': 'install'}
+[9.546921] (-) TimerEvent: {}
+[9.548905] (pose_resolve) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xyq/Desktop/ros_ws/build/pose_resolve'], 'cwd': '/home/xyq/Desktop/ros_ws/build/pose_resolve', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MY_PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xyq'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/xyq/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/179/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xyq'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.96.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/179/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/xyq/.nvm/versions/node/v20.18.1/bin'), ('NVM_INC', '/home/xyq/.nvm/versions/node/v20.18.1/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/xyq/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/179/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/179/usr/share/code/code'), ('MANAGERPID', '1847'), ('SYSTEMD_EXEC_PID', '2201'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '80105'), ('NVM_DIR', '/home/xyq/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xyq'), ('JOURNAL_STREAM', '8:9461'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'xyq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/xyq-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/2182,unix/xyq-Legion-Y7000P-IRH8:/tmp/.ICE-unix/2182'), ('GTK_EXE_PREFIX', '/snap/code/179/usr'), ('INVOCATION_ID', '67e67c5f433b486d9232e50159c2bfdb'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/179/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/xyq/snap/code/179/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-daa9d8dc5c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/xyq/snap/code/179/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xyq/Desktop/ros_ws/build/pose_resolve'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/xyq/snap/code/179/.local/share:/home/xyq/snap/code/179:/snap/code/179/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble')]), 'shell': False}
+[9.557654] (pose_resolve) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.558003] (pose_resolve) StdoutLine: {'line': b'-- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node\n'}
+[9.560824] (pose_resolve) StdoutLine: {'line': b'-- Set runtime path of "/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node" to ""\n'}
+[9.561287] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/package_run_dependencies/pose_resolve\n'}
+[9.561389] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/parent_prefix_path/pose_resolve\n'}
+[9.561475] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.sh\n'}
+[9.561554] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.dsv\n'}
+[9.561636] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.sh\n'}
+[9.561716] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.dsv\n'}
+[9.561794] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.bash\n'}
+[9.561884] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.sh\n'}
+[9.561969] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.zsh\n'}
+[9.562045] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.dsv\n'}
+[9.562128] (pose_resolve) StdoutLine: {'line': b'-- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.dsv\n'}
+[9.562225] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/packages/pose_resolve\n'}
+[9.562324] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig.cmake\n'}
+[9.562416] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig-version.cmake\n'}
+[9.562501] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.xml\n'}
+[9.563623] (pose_resolve) CommandEnded: {'returncode': 0}
+[9.581323] (pose_resolve) JobEnded: {'identifier': 'pose_resolve', 'rc': 0}
+[9.582132] (-) EventReactorShutdown: {}

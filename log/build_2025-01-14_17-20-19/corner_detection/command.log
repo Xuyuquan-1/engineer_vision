@@ -1,0 +1,2 @@
+Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20

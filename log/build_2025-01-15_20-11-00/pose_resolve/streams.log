@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/xyq/Desktop/ros_ws/build/pose_resolve': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target pose_resolve_node[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o[0m
+[2.112s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:[m[K In function ‘[01m[Kvoid PoseResolveCallback(const ConstSharedPtr&)[m[K’:
+[2.112s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:52:41:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(corner_x.std::vector<double, std::allocator<double> >::operator[](((std::vector<double, std::allocator<double> >::size_type)i)) * ((__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type)4.0e+0f))[m[K’ from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.112s]    52 |         corner_2d.push_back({corner_x[i]*4.0f, corner_y[i]*4.0f});
+[2.112s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:52:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(corner_y.std::vector<double, std::allocator<double> >::operator[](((std::vector<double, std::allocator<double> >::size_type)i)) * ((__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type)4.0e+0f))[m[K’ from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.112s]    52 |         corner_2d.push_back({corner_x[i]*4.0f, corner_y[i]*4.0f});
+[2.115s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:89:62:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[2.115s]    89 |     cv::solvePnP(corner_3d, corner_2d, K, C, rvet, tvet, [01;35m[Kcv::SOLVEPNP_P3P[m[K);
+[2.115s]       |                                                          [01;35m[K~~~~^~~~~~~~~~~~[m[K
+[5.628s] [100%] [32m[1mLinking CXX executable pose_resolve_node[0m
+[6.099s] [100%] Built target pose_resolve_node
+[6.107s] Invoked command in '/home/xyq/Desktop/ros_ws/build/pose_resolve' returned '0': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20
+[6.116s] Invoking command in '/home/xyq/Desktop/ros_ws/build/pose_resolve': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/pose_resolve
+[6.122s] -- Install configuration: ""
+[6.122s] -- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node
+[6.125s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node" to ""
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/package_run_dependencies/pose_resolve
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/parent_prefix_path/pose_resolve
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.sh
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.dsv
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.sh
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.dsv
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.bash
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.sh
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.zsh
+[6.125s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.dsv
+[6.126s] -- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.dsv
+[6.126s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/packages/pose_resolve
+[6.126s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig.cmake
+[6.126s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig-version.cmake
+[6.126s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.xml
+[6.128s] Invoked command in '/home/xyq/Desktop/ros_ws/build/pose_resolve' returned '0': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/pose_resolve

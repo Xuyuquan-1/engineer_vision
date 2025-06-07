@@ -1,0 +1,13 @@
+[0.008s] Invoking command in '/home/xyq/Desktop/ros_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_processing -- -j20 -l20
+[0.051s] [ 50%] [32m[1mLinking CXX executable image_processing[0m
+[0.103s] /usr/bin/ld: CMakeFiles/image_processing.dir/src/bgr2gray.cpp.o: in function `main':
+[0.103s] bgr2gray.cpp:(.text+0x37): undefined reference to `rcutils_get_default_allocator'
+[0.103s] /usr/bin/ld: bgr2gray.cpp:(.text+0x5c): undefined reference to `rclcpp::InitOptions::InitOptions(rcutils_allocator_s)'
+[0.103s] /usr/bin/ld: bgr2gray.cpp:(.text+0x7d): undefined reference to `rclcpp::init(int, char const* const*, rclcpp::InitOptions const&, rclcpp::SignalHandlerOptions)'
+[0.103s] /usr/bin/ld: bgr2gray.cpp:(.text+0x89): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+[0.103s] /usr/bin/ld: bgr2gray.cpp:(.text+0xb2): undefined reference to `rclcpp::InitOptions::~InitOptions()'
+[0.105s] collect2: error: ld returned 1 exit status
+[0.106s] gmake[2]: *** [CMakeFiles/image_processing.dir/build.make:151：image_processing] 错误 1
+[0.106s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/image_processing.dir/all] 错误 2
+[0.106s] gmake: *** [Makefile:146：all] 错误 2
+[0.108s] Invoked command in '/home/xyq/Desktop/ros_ws/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_processing -- -j20 -l20

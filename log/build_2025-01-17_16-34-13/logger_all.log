@@ -1,0 +1,538 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76d852d5c9a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76d852d5c1c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76d852d5c1c0>>)
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.143s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xyq/Desktop/ros_ws'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_display) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_display' with type 'ros.ament_cmake' and name 'camera_display'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_driver' with type 'ros.ament_cmake' and name 'mindvision_camera'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_interface) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_interface' with type 'ros.ament_cmake' and name 'camera_interface'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/corner_detection) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/corner_detection' with type 'ros.ament_cmake' and name 'corner_detection'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_display) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_display' with type 'ros.ament_cmake' and name 'image_display'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_processing) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_processing' with type 'ros.ament_cmake' and name 'image_processing'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_resolve) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_resolve' with type 'ros.ament_cmake' and name 'pose_resolve'
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.203s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'camera_display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xyq/Desktop/ros_ws/build/camera_display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xyq/Desktop/ros_ws/install/camera_display', 'merge_install': False, 'path': '/home/xyq/Desktop/ros_ws/src/camera_display', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'camera_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'camera_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xyq/Desktop/ros_ws/build/camera_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xyq/Desktop/ros_ws/install/camera_interface', 'merge_install': False, 'path': '/home/xyq/Desktop/ros_ws/src/camera_interface', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'image_display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xyq/Desktop/ros_ws/build/image_display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xyq/Desktop/ros_ws/install/image_display', 'merge_install': False, 'path': '/home/xyq/Desktop/ros_ws/src/image_display', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'image_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xyq/Desktop/ros_ws/build/image_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xyq/Desktop/ros_ws/install/image_processing', 'merge_install': False, 'path': '/home/xyq/Desktop/ros_ws/src/image_processing', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mindvision_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'mindvision_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xyq/Desktop/ros_ws/build/mindvision_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xyq/Desktop/ros_ws/install/mindvision_camera', 'merge_install': False, 'path': '/home/xyq/Desktop/ros_ws/src/camera_driver', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'corner_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'corner_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xyq/Desktop/ros_ws/build/corner_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xyq/Desktop/ros_ws/install/corner_detection', 'merge_install': False, 'path': '/home/xyq/Desktop/ros_ws/src/corner_detection', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'pose_resolve' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'pose_resolve' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xyq/Desktop/ros_ws/build/pose_resolve', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xyq/Desktop/ros_ws/install/pose_resolve', 'merge_install': False, 'path': '/home/xyq/Desktop/ros_ws/src/pose_resolve', 'symlink_install': False, 'test_result_base': None}
+[0.229s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xyq/Desktop/ros_ws/src/camera_interface' with build type 'ament_cmake'
+[0.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xyq/Desktop/ros_ws/src/camera_interface'
+[0.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xyq/Desktop/ros_ws/src/camera_display' with build type 'ament_cmake'
+[0.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xyq/Desktop/ros_ws/src/camera_display'
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xyq/Desktop/ros_ws/src/image_display' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xyq/Desktop/ros_ws/src/image_display'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xyq/Desktop/ros_ws/src/image_processing' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xyq/Desktop/ros_ws/src/image_processing'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xyq/Desktop/ros_ws/src/camera_driver' with build type 'ament_cmake'
+[0.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xyq/Desktop/ros_ws/src/camera_driver'
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_interface -- -j20 -l20
+[0.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_display -- -j20 -l20
+[0.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/image_display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_display -- -j20 -l20
+[0.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_processing -- -j20 -l20
+[0.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/mindvision_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/mindvision_camera -- -j20 -l20
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/image_display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_display -- -j20 -l20
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/image_display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/image_display
+[0.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_display)
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/image_display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/image_display
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display' for CMake module files
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display' for CMake config files
+[0.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_display', 'cmake_prefix_path')
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/hook/cmake_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/hook/cmake_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/hook/cmake_prefix_path.sh'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display/bin'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display/lib/pkgconfig/image_display.pc'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display/lib/python3.10/site-packages'
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display/bin'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.dsv'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.sh'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.bash'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.zsh'
+[0.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/image_display/share/colcon-core/packages/image_display)
+[0.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_display)
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display' for CMake module files
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display' for CMake config files
+[0.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_display', 'cmake_prefix_path')
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/hook/cmake_prefix_path.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/hook/cmake_prefix_path.dsv'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/hook/cmake_prefix_path.sh'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display/bin'
+[0.335s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display/lib/pkgconfig/image_display.pc'
+[0.336s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display/lib/python3.10/site-packages'
+[0.336s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_display/bin'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.ps1'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.dsv'
+[0.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.bash'
+[0.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.zsh'
+[0.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/image_display/share/colcon-core/packages/image_display)
+[0.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_processing -- -j20 -l20
+[0.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/image_processing
+[0.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_display -- -j20 -l20
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_display
+[0.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/mindvision_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/mindvision_camera -- -j20 -l20
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/mindvision_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/mindvision_camera
+[0.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_processing)
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing' for CMake module files
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing' for CMake config files
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/image_processing
+[0.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'cmake_prefix_path')
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.ps1'
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.dsv'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.sh'
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/lib'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/bin'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/lib/pkgconfig/image_processing.pc'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/lib/python3.10/site-packages'
+[0.366s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/bin'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.ps1'
+[0.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.dsv'
+[0.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.sh'
+[0.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.bash'
+[0.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.zsh'
+[0.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/image_processing/share/colcon-core/packages/image_processing)
+[0.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_processing)
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing' for CMake module files
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing' for CMake config files
+[0.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'cmake_prefix_path')
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.ps1'
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.dsv'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/hook/cmake_prefix_path.sh'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/lib'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/bin'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/lib/pkgconfig/image_processing.pc'
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/lib/python3.10/site-packages'
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/image_processing/bin'
+[0.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.ps1'
+[0.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.sh'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.bash'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.zsh'
+[0.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/image_processing/share/colcon-core/packages/image_processing)
+[0.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_display)
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display' for CMake module files
+[0.375s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display' for CMake config files
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_display
+[0.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_display', 'cmake_prefix_path')
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/hook/cmake_prefix_path.ps1'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/hook/cmake_prefix_path.dsv'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/hook/cmake_prefix_path.sh'
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/lib'
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/bin'
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/lib/pkgconfig/camera_display.pc'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/lib/python3.10/site-packages'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/bin'
+[0.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.sh'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.bash'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.zsh'
+[0.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/camera_display/share/colcon-core/packages/camera_display)
+[0.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_display)
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display' for CMake module files
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display' for CMake config files
+[0.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_display', 'cmake_prefix_path')
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/hook/cmake_prefix_path.ps1'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/hook/cmake_prefix_path.dsv'
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/hook/cmake_prefix_path.sh'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/lib'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/bin'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/lib/pkgconfig/camera_display.pc'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/lib/python3.10/site-packages'
+[0.384s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_display/bin'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.ps1'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.dsv'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.sh'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.bash'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.zsh'
+[0.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/camera_display/share/colcon-core/packages/camera_display)
+[0.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mindvision_camera)
+[0.386s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera' for CMake module files
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera' for CMake config files
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/mindvision_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/mindvision_camera
+[0.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('mindvision_camera', 'cmake_prefix_path')
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/cmake_prefix_path.ps1'
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/cmake_prefix_path.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/cmake_prefix_path.sh'
+[0.390s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib'
+[0.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('mindvision_camera', 'ld_library_path_lib')
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/ld_library_path_lib.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/ld_library_path_lib.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/ld_library_path_lib.sh'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/bin'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib/pkgconfig/mindvision_camera.pc'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib/python3.10/site-packages'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/bin'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.ps1'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.dsv'
+[0.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.sh'
+[0.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.bash'
+[0.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.zsh'
+[0.397s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/colcon-core/packages/mindvision_camera)
+[0.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mindvision_camera)
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera' for CMake module files
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera' for CMake config files
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('mindvision_camera', 'cmake_prefix_path')
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/cmake_prefix_path.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/cmake_prefix_path.dsv'
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/cmake_prefix_path.sh'
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib'
+[0.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('mindvision_camera', 'ld_library_path_lib')
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/ld_library_path_lib.ps1'
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/ld_library_path_lib.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/hook/ld_library_path_lib.sh'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/bin'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib/pkgconfig/mindvision_camera.pc'
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib/python3.10/site-packages'
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/mindvision_camera/bin'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.ps1'
+[0.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.sh'
+[0.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.bash'
+[0.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/mindvision_camera/package.zsh'
+[0.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/mindvision_camera/share/colcon-core/packages/mindvision_camera)
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_interface -- -j20 -l20
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_interface
+[0.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_interface)
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface' for CMake module files
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_interface
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface' for CMake config files
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_interface', 'cmake_prefix_path')
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/cmake_prefix_path.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/cmake_prefix_path.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/cmake_prefix_path.sh'
+[0.623s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/lib'
+[0.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_interface', 'ld_library_path_lib')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/ld_library_path_lib.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/ld_library_path_lib.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/ld_library_path_lib.sh'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/bin'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/lib/pkgconfig/camera_interface.pc'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/lib/python3.10/site-packages'
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/bin'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.sh'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.bash'
+[0.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.zsh'
+[0.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/camera_interface/share/colcon-core/packages/camera_interface)
+[0.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_interface)
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface' for CMake module files
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface' for CMake config files
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_interface', 'cmake_prefix_path')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/cmake_prefix_path.ps1'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/cmake_prefix_path.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/cmake_prefix_path.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/lib'
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_interface', 'ld_library_path_lib')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/ld_library_path_lib.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/ld_library_path_lib.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/hook/ld_library_path_lib.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/bin'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/lib/pkgconfig/camera_interface.pc'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/lib/python3.10/site-packages'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/camera_interface/bin'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.dsv'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.sh'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.bash'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/package.zsh'
+[0.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/camera_interface/share/colcon-core/packages/camera_interface)
+[0.634s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xyq/Desktop/ros_ws/src/corner_detection' with build type 'ament_cmake'
+[0.634s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xyq/Desktop/ros_ws/src/corner_detection'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.639s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xyq/Desktop/ros_ws/src/pose_resolve' with build type 'ament_cmake'
+[0.639s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xyq/Desktop/ros_ws/src/pose_resolve'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+[0.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/pose_resolve': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20
+[0.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+[0.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/corner_detection
+[0.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(corner_detection)
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection' for CMake module files
+[0.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/corner_detection
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection' for CMake config files
+[0.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('corner_detection', 'cmake_prefix_path')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/hook/cmake_prefix_path.dsv'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/hook/cmake_prefix_path.sh'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/lib'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/bin'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/lib/pkgconfig/corner_detection.pc'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/bin'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/corner_detection/share/colcon-core/packages/corner_detection)
+[0.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(corner_detection)
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection' for CMake module files
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection' for CMake config files
+[0.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('corner_detection', 'cmake_prefix_path')
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/hook/cmake_prefix_path.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/hook/cmake_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/hook/cmake_prefix_path.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/lib'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/bin'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/lib/pkgconfig/corner_detection.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/lib/python3.10/site-packages'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/corner_detection/bin'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.sh'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.bash'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.zsh'
+[0.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/corner_detection/share/colcon-core/packages/corner_detection)
+[9.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/pose_resolve' returned '0': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20
+[9.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xyq/Desktop/ros_ws/build/pose_resolve': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/pose_resolve
+[9.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pose_resolve)
+[9.246s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve' for CMake module files
+[9.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xyq/Desktop/ros_ws/build/pose_resolve' returned '0': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/pose_resolve
+[9.247s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve' for CMake config files
+[9.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_resolve', 'cmake_prefix_path')
+[9.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/hook/cmake_prefix_path.ps1'
+[9.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/hook/cmake_prefix_path.dsv'
+[9.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/hook/cmake_prefix_path.sh'
+[9.248s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/lib'
+[9.248s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/bin'
+[9.248s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pkgconfig/pose_resolve.pc'
+[9.248s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/python3.10/site-packages'
+[9.248s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/bin'
+[9.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.ps1'
+[9.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.dsv'
+[9.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.sh'
+[9.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.bash'
+[9.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.zsh'
+[9.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/pose_resolve/share/colcon-core/packages/pose_resolve)
+[9.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pose_resolve)
+[9.250s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve' for CMake module files
+[9.250s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve' for CMake config files
+[9.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_resolve', 'cmake_prefix_path')
+[9.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/hook/cmake_prefix_path.ps1'
+[9.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/hook/cmake_prefix_path.dsv'
+[9.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/hook/cmake_prefix_path.sh'
+[9.252s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/lib'
+[9.252s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/bin'
+[9.252s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pkgconfig/pose_resolve.pc'
+[9.252s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/python3.10/site-packages'
+[9.253s] Level 1:colcon.colcon_core.environment:checking '/home/xyq/Desktop/ros_ws/install/pose_resolve/bin'
+[9.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.ps1'
+[9.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.dsv'
+[9.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.sh'
+[9.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.bash'
+[9.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.zsh'
+[9.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xyq/Desktop/ros_ws/install/pose_resolve/share/colcon-core/packages/pose_resolve)
+[9.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.255s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.261s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.274s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xyq/Desktop/ros_ws/install/local_setup.ps1'
+[9.275s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xyq/Desktop/ros_ws/install/_local_setup_util_ps1.py'
+[9.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xyq/Desktop/ros_ws/install/setup.ps1'
+[9.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xyq/Desktop/ros_ws/install/local_setup.sh'
+[9.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xyq/Desktop/ros_ws/install/_local_setup_util_sh.py'
+[9.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xyq/Desktop/ros_ws/install/setup.sh'
+[9.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xyq/Desktop/ros_ws/install/local_setup.bash'
+[9.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xyq/Desktop/ros_ws/install/setup.bash'
+[9.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xyq/Desktop/ros_ws/install/local_setup.zsh'
+[9.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xyq/Desktop/ros_ws/install/setup.zsh'

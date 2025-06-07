@@ -1,0 +1,6 @@
+Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/camera_display -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/camera_display
+Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/camera_display -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/camera_display
+Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_display -- -j20 -l20
+Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/camera_display -- -j20 -l20
+Invoking command in '/home/xyq/Desktop/ros_ws/build/camera_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_display
+Invoked command in '/home/xyq/Desktop/ros_ws/build/camera_display' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/camera_display

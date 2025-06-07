@@ -1,0 +1,70 @@
+[0.006s] Invoking command in '/home/xyq/Desktop/ros_ws/build/image_processing': /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/image_processing -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/image_processing
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.352s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.415s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[0.417s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.450s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.453s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.459s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.513s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.515s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.582s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.599s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.630s] -- Looking for pthread.h
+[0.680s] -- Looking for pthread.h - found
+[0.680s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.729s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.729s] -- Found Threads: TRUE  
+[0.764s] [31mCMake Error at CMakeLists.txt:20 (target_link_libraries):
+[0.764s]   IMPORTED library can only be used with the INTERFACE keyword of
+[0.764s]   target_link_libraries
+[0.764s] 
+[0.764s] [0m
+[0.764s] [31mCMake Error at CMakeLists.txt:21 (target_link_libraries):
+[0.764s]   target_link_libraries called with incorrect number of arguments
+[0.764s] 
+[0.764s] [0m
+[0.765s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.797s] Error parsing '/home/xyq/Desktop/ros_ws/src/image_processing/package.xml':
+[0.822s] Traceback (most recent call last):
+[0.822s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.822s]     main()
+[0.822s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.822s]     raise e
+[0.822s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.822s]     package = parse_package_string(
+[0.822s]   File "/usr/local/lib/python3.10/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.822s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.822s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/xyq/Desktop/ros_ws/src/image_processing/package.xml':
+[0.822s] Error(s):
+[0.822s] - The generic dependency on 'rclcpp' is redundant with: build_depend, build_export_depend, exec_depend
+[0.831s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.831s]   execute_process(/usr/bin/python3
+[0.831s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.831s]   /home/xyq/Desktop/ros_ws/src/image_processing/package.xml
+[0.831s]   /home/xyq/Desktop/ros_ws/build/image_processing/ament_cmake_core/package.cmake)
+[0.831s]   returned error code 1
+[0.831s] Call Stack (most recent call first):
+[0.831s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.831s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.831s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.831s] 
+[0.831s] [0m
+[0.831s] -- Configuring incomplete, errors occurred!
+[0.831s] See also "/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/CMakeOutput.log".
+[0.838s] Invoked command in '/home/xyq/Desktop/ros_ws/build/image_processing' returned '1': /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/image_processing -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/image_processing

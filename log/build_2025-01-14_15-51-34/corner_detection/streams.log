@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+[0.055s] [100%] Built target corner_detection_node
+[0.079s] Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+[0.079s] Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/corner_detection
+[0.082s] -- Install configuration: ""
+[0.082s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/lib/corner_detection/corner_detection_node
+[0.082s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/package_run_dependencies/corner_detection
+[0.082s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/parent_prefix_path/corner_detection
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/ament_prefix_path.dsv
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/path.sh
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/path.dsv
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.bash
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.sh
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.zsh
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.dsv
+[0.083s] -- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.dsv
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/packages/corner_detection
+[0.083s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/cmake/corner_detectionConfig.cmake
+[0.084s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/cmake/corner_detectionConfig-version.cmake
+[0.084s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.xml
+[0.085s] Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/corner_detection

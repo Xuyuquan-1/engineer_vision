@@ -1,0 +1,7 @@
+[ 50%] [32m[1mLinking CXX executable pose_resolve_node[0m
+/usr/bin/ld: CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o: in function `PoseResolveCallback(std::shared_ptr<camera_interface::msg::Corner_<std::allocator<void> > const> const&)':
+pose_resolve_node.cpp:(.text+0x192): undefined reference to `solve_pnp(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pose_resolve_node.dir/build.make:240：pose_resolve_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pose_resolve_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

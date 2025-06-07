@@ -1,0 +1,16 @@
+/home/xyq/Desktop/ros_ws/install/camera_display/lib/camera_display/camera_display
+/home/xyq/Desktop/ros_ws/install/camera_display/share/ament_index/resource_index/package_run_dependencies/camera_display
+/home/xyq/Desktop/ros_ws/install/camera_display/share/ament_index/resource_index/parent_prefix_path/camera_display
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/environment/ament_prefix_path.sh
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/environment/ament_prefix_path.dsv
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/environment/path.sh
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/environment/path.dsv
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/local_setup.bash
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/local_setup.sh
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/local_setup.zsh
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/local_setup.dsv
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.dsv
+/home/xyq/Desktop/ros_ws/install/camera_display/share/ament_index/resource_index/packages/camera_display
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/cmake/camera_displayConfig.cmake
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/cmake/camera_displayConfig-version.cmake
+/home/xyq/Desktop/ros_ws/install/camera_display/share/camera_display/package.xml

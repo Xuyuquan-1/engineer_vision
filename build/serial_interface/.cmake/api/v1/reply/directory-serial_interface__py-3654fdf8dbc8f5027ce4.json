@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "serial_interface__py",
+		"source" : "/home/xyq/Desktop/ros_ws/build/serial_interface/serial_interface__py"
+	}
+}

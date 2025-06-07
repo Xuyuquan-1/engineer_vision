@@ -1,0 +1,10 @@
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/uninstall.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/serial_port_uninstall.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/serial_port_node.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/test.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/edit_cache.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/rebuild_cache.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/list_install_components.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/install.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/install/local.dir
+/home/xyq/Desktop/ros_ws/build/serial_port/CMakeFiles/install/strip.dir

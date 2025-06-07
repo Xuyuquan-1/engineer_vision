@@ -1,0 +1,10 @@
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/uninstall.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/image_processing_uninstall.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/image_processing.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/test.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/edit_cache.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/rebuild_cache.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/list_install_components.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/install.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/install/local.dir
+/home/xyq/Desktop/ros_ws/build/image_processing/CMakeFiles/install/strip.dir

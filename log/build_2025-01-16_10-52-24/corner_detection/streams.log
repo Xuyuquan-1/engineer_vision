@@ -1,0 +1,49 @@
+[0.009s] Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target corner_detection_node[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/corner_detection_node.dir/src/corner_detection.cpp.o[0m
+[1.806s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:[m[K In member function ‘[01m[Kvoid CornerPublisher::PublishCorner2D(const std::vector<cv::Point_<int> >&)[m[K’:
+[1.806s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:38:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Point_<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.806s]    38 |                 for(int i=0;[01;35m[Ki<corners_2d.size()[m[K;i++){
+[1.806s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[1.813s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:[m[K In function ‘[01m[Kstd::vector<cv::Point_<int> > CornerDetect(cv::Mat&)[m[K’:
+[1.813s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:186:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.813s]   186 |                 for(int i=0;[01;35m[Ki<mul_polys.size()-1[m[K;i++){
+[1.813s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[1.813s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:188:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.813s]   188 |                         for(int j=0;[01;35m[Kj<mul_polys.size()-1[m[K;j++){
+[1.813s]       |                                     [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[1.813s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:210:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.813s]   210 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+[1.813s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[1.814s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:273:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.814s]   273 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+[1.814s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[1.814s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:277:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.814s]   277 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+[1.814s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[1.814s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.814s]   281 |                         if([01;35m[Ki == mul_polys.size()-1[m[K){
+[1.814s]       |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.545s] [100%] [32m[1mLinking CXX executable corner_detection_node[0m
+[3.922s] [100%] Built target corner_detection_node
+[3.934s] Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+[3.941s] Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/corner_detection
+[3.949s] -- Install configuration: ""
+[3.949s] -- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/lib/corner_detection/corner_detection_node
+[3.951s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/corner_detection/lib/corner_detection/corner_detection_node" to ""
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/package_run_dependencies/corner_detection
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/parent_prefix_path/corner_detection
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/ament_prefix_path.sh
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/ament_prefix_path.dsv
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/path.sh
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/path.dsv
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.bash
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.sh
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.zsh
+[3.951s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.dsv
+[3.951s] -- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.dsv
+[3.952s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/packages/corner_detection
+[3.952s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/cmake/corner_detectionConfig.cmake
+[3.952s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/cmake/corner_detectionConfig-version.cmake
+[3.952s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.xml
+[3.953s] Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/corner_detection

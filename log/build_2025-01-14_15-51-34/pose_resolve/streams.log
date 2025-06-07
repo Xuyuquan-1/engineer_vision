@@ -1,0 +1,55 @@
+[0.007s] Invoking command in '/home/xyq/Desktop/ros_ws/build/pose_resolve': CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.106s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.126s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.128s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.132s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.171s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.172s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.275s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[0.307s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.309s] -- Found camera_interface: 0.0.0 (/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake)
+[0.319s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.360s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.361s] -- Configured cppcheck include dirs: 
+[0.361s] -- Configured cppcheck exclude dirs and/or files: 
+[0.361s] -- Added test 'lint_cmake' to check CMake code style
+[0.362s] -- Added test 'uncrustify' to check C / C++ code style
+[0.362s] -- Configured uncrustify additional arguments: 
+[0.362s] -- Added test 'xmllint' to check XML markup files
+[0.363s] -- Configuring done
+[0.372s] -- Generating done
+[0.374s] -- Build files have been written to: /home/xyq/Desktop/ros_ws/build/pose_resolve
+[0.394s] [35m[1mConsolidate compiler generated dependencies of target pose_resolve_node[0m
+[0.409s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o[0m
+[1.969s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:[m[K In function ‘[01m[Kvoid PoseResolveCallback(const ConstSharedPtr&)[m[K’:
+[1.969s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:14:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.969s]    14 | eCallback([01;35m[Kconst sensor_msgs::msg::Image::ConstSharedPtr &msg[m[K){
+[1.969s]       |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.969s] 
+[2.438s] [100%] [32m[1mLinking CXX executable pose_resolve_node[0m
+[2.563s] [100%] Built target pose_resolve_node
+[2.570s] Invoked command in '/home/xyq/Desktop/ros_ws/build/pose_resolve' returned '0': CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20
+[2.571s] Invoking command in '/home/xyq/Desktop/ros_ws/build/pose_resolve': CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/pose_resolve
+[2.575s] -- Install configuration: ""
+[2.576s] -- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node
+[2.576s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node" to ""
+[2.576s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/package_run_dependencies/pose_resolve
+[2.576s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/parent_prefix_path/pose_resolve
+[2.576s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.sh
+[2.576s] -- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.dsv
+[2.576s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.sh
+[2.576s] -- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.dsv
+[2.577s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.bash
+[2.577s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.sh
+[2.577s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.zsh
+[2.577s] -- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.dsv
+[2.577s] -- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.dsv
+[2.577s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/packages/pose_resolve
+[2.577s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig.cmake
+[2.577s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig-version.cmake
+[2.577s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.xml
+[2.578s] Invoked command in '/home/xyq/Desktop/ros_ws/build/pose_resolve' returned '0': CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/pose_resolve

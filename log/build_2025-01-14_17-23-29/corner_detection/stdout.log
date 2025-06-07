@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target corner_detection_node[0m
+[100%] Built target corner_detection_node
+-- Install configuration: ""
+-- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/lib/corner_detection/corner_detection_node
+-- Set runtime path of "/home/xyq/Desktop/ros_ws/install/corner_detection/lib/corner_detection/corner_detection_node" to ""
+-- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/package_run_dependencies/corner_detection
+-- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/parent_prefix_path/corner_detection
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/ament_prefix_path.sh
+-- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/path.sh
+-- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/environment/path.dsv
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.bash
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.sh
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.zsh
+-- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/local_setup.dsv
+-- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.dsv
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/ament_index/resource_index/packages/corner_detection
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/cmake/corner_detectionConfig.cmake
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/cmake/corner_detectionConfig-version.cmake
+-- Installing: /home/xyq/Desktop/ros_ws/install/corner_detection/share/corner_detection/package.xml

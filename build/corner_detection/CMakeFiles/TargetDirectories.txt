@@ -1,0 +1,10 @@
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/uninstall.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/corner_detection_uninstall.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/corner_detection_node.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/test.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/edit_cache.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/rebuild_cache.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/list_install_components.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/install.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/install/local.dir
+/home/xyq/Desktop/ros_ws/build/corner_detection/CMakeFiles/install/strip.dir

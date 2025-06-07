@@ -1,0 +1,7 @@
+[01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcamera_interface/msg/corner.hpp: 没有那个文件或目录
+    5 | #include [01;31m[K"camera_interface/msg/corner.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/corner_detection_node.dir/build.make:76：CMakeFiles/corner_detection_node.dir/src/corner_detection.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/corner_detection_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

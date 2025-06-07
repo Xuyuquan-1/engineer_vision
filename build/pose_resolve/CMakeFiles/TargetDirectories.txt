@@ -1,0 +1,10 @@
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/uninstall.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/pose_resolve_uninstall.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/pose_resolve_node.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/test.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/edit_cache.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/rebuild_cache.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/list_install_components.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/install.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/install/local.dir
+/home/xyq/Desktop/ros_ws/build/pose_resolve/CMakeFiles/install/strip.dir

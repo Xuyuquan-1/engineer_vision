@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_port_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/serial_port_node.dir/src/serial_port_node.cpp.o[0m
+[01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | int main([01;35m[Kint argc[m[K, char* argv[]){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:3:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | int main(int argc, [01;35m[Kchar* argv[][m[K){
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable serial_port_node[0m
+[100%] Built target serial_port_node
+-- Install configuration: ""
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/package_run_dependencies/serial_port
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/parent_prefix_path/serial_port
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.sh
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.dsv
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.sh
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.dsv
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.bash
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.sh
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.zsh
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.dsv
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.dsv
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/packages/serial_port
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig.cmake
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig-version.cmake
+-- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.xml

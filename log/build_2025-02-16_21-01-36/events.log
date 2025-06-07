@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000532] (-) JobUnselected: {'identifier': 'camera_display'}
+[0.000583] (-) JobUnselected: {'identifier': 'camera_interface'}
+[0.001012] (-) JobUnselected: {'identifier': 'corner_detection'}
+[0.001178] (-) JobUnselected: {'identifier': 'image_display'}
+[0.001295] (-) JobUnselected: {'identifier': 'image_processing'}
+[0.001521] (-) JobUnselected: {'identifier': 'mindvision_camera'}
+[0.001628] (-) JobUnselected: {'identifier': 'mnist_bp'}
+[0.001716] (-) JobUnselected: {'identifier': 'serial_port'}
+[0.001783] (pose_resolve) JobQueued: {'identifier': 'pose_resolve', 'dependencies': OrderedDict([('camera_interface', '/home/xyq/Desktop/ros_ws/install/camera_interface')])}
+[0.001859] (pose_resolve) JobStarted: {'identifier': 'pose_resolve'}
+[0.016523] (pose_resolve) JobProgress: {'identifier': 'pose_resolve', 'progress': 'cmake'}
+[0.017271] (pose_resolve) JobProgress: {'identifier': 'pose_resolve', 'progress': 'build'}
+[0.017992] (pose_resolve) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xyq/Desktop/ros_ws/build/pose_resolve', '--', '-j20', '-l20'], 'cwd': '/home/xyq/Desktop/ros_ws/build/pose_resolve', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:'), ('MY_PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursorZssUIG:/tmp/.mount_cursorZssUIG/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xyq'), ('ROS_PACKAGE_PATH', '/opt/ros/humble/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/tmp/.mount_cursorjsQPxw/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/home/xyq/Desktop/ros_ws/install/serial_interface/lib:/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorZssUIG/usr/lib'), ('HOME', '/home/xyq'), ('CHROME_DESKTOP', 'cursor-url-handler.desktop'), ('APPDIR', '/tmp/.mount_cursorZssUIG'), ('TERM_PROGRAM_VERSION', '0.45.11'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xyq/.nvm/versions/node/v20.18.1/bin'), ('NVM_INC', '/home/xyq/.nvm/versions/node/v20.18.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_cursorjsQPxw/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_cursorjsQPxw/cursor'), ('MANAGERPID', '2135'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2468'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7c5ce2fbd62d0d49ddc246e267b1da49'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '102539'), ('NVM_DIR', '/home/xyq/.nvm'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('COLCON_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xyq'), ('OWD', '/home/xyq/Downloads'), ('JOURNAL_STREAM', '8:10552'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xyq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursorZssUIG:/tmp/.mount_cursorZssUIG/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64'), ('SESSION_MANAGER', 'local/xyq-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/2468,unix/xyq-Legion-Y7000P-IRH8:/tmp/.ICE-unix/2468'), ('INVOCATION_ID', 'fe247820f417432abcaf0d273d095027'), ('APPIMAGE', '/home/xyq/Downloads/cursor-0.45.11x86_64.AppImage'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f42ada78.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', '9ebe05dd5e8f4c239cda51640d6f7414'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_cursorZssUIG/usr/share/glib-2.0/schemas:'), ('AMENT_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/serial_port:/home/xyq/Desktop/ros_ws/install/serial_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_processing:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('ARGV0', '/home/xyq/Downloads/cursor-0.45.11x86_64.AppImage'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xyq/Desktop/ros_ws/build/pose_resolve'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7c5ce2fbd62d0d49ddc246e267b1da49'), ('XDG_DATA_DIRS', '/tmp/.mount_cursorZssUIG/usr/share/:./share/:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share/gnome/:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/xyq/Desktop/ros_ws/install/serial_interface/local/lib/python3.10/dist-packages:/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/serial_port:/home/xyq/Desktop/ros_ws/install/serial_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_processing:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble')]), 'shell': False}
+[0.087478] (pose_resolve) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pose_resolve_node\x1b[0m\n'}
+[0.099160] (-) TimerEvent: {}
+[0.122826] (pose_resolve) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o\x1b[0m\n'}
+[0.199276] (-) TimerEvent: {}
+[0.300036] (-) TimerEvent: {}
+[0.400538] (-) TimerEvent: {}
+[0.501000] (-) TimerEvent: {}
+[0.601560] (-) TimerEvent: {}
+[0.702167] (-) TimerEvent: {}
+[0.802671] (-) TimerEvent: {}
+[0.903228] (-) TimerEvent: {}
+[1.003869] (-) TimerEvent: {}
+[1.104487] (-) TimerEvent: {}
+[1.204977] (-) TimerEvent: {}
+[1.305467] (-) TimerEvent: {}
+[1.406006] (-) TimerEvent: {}
+[1.506466] (-) TimerEvent: {}
+[1.606873] (-) TimerEvent: {}
+[1.707350] (-) TimerEvent: {}
+[1.807766] (-) TimerEvent: {}
+[1.908258] (-) TimerEvent: {}
+[2.008836] (-) TimerEvent: {}
+[2.109509] (-) TimerEvent: {}
+[2.210086] (-) TimerEvent: {}
+[2.310666] (-) TimerEvent: {}
+[2.411255] (-) TimerEvent: {}
+[2.511922] (-) TimerEvent: {}
+[2.612523] (-) TimerEvent: {}
+[2.713121] (-) TimerEvent: {}
+[2.813770] (-) TimerEvent: {}
+[2.914353] (-) TimerEvent: {}
+[3.015086] (-) TimerEvent: {}
+[3.115710] (-) TimerEvent: {}
+[3.216356] (-) TimerEvent: {}
+[3.317087] (-) TimerEvent: {}
+[3.417596] (-) TimerEvent: {}
+[3.518270] (-) TimerEvent: {}
+[3.618793] (-) TimerEvent: {}
+[3.719458] (-) TimerEvent: {}
+[3.801434] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid solve_pnp(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.801884] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:125:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<cv::Point_<float> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.802187] (pose_resolve) StderrLine: {'line': b'  125 |     for(int i=0;\x1b[01;35m\x1b[Ki<corner_2d.size()\x1b[m\x1b[K;i++){\n'}
+[3.802348] (pose_resolve) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.802484] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:130:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<cv::Point3_<float> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.802619] (pose_resolve) StderrLine: {'line': b'  130 |     for(int i=0;\x1b[01;35m\x1b[Ki<corner_3d.size()\x1b[m\x1b[K;i++){\n'}
+[3.802757] (pose_resolve) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.819614] (-) TimerEvent: {}
+[3.916205] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPosePublisher::PosePublisher(const char*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.916589] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:246:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.916716] (pose_resolve) StderrLine: {'line': b'  246 |     PosePublisher(\x1b[01;35m\x1b[Kconst char* name\x1b[m\x1b[K):Node("name"){\n'}
+[3.916808] (pose_resolve) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.919716] (-) TimerEvent: {}
+[4.020245] (-) TimerEvent: {}
+[4.120855] (-) TimerEvent: {}
+[4.221542] (-) TimerEvent: {}
+[4.322220] (-) TimerEvent: {}
+[4.422768] (-) TimerEvent: {}
+[4.523452] (-) TimerEvent: {}
+[4.623955] (-) TimerEvent: {}
+[4.724556] (-) TimerEvent: {}
+[4.825199] (-) TimerEvent: {}
+[4.925821] (-) TimerEvent: {}
+[5.026352] (-) TimerEvent: {}
+[5.126846] (-) TimerEvent: {}
+[5.227458] (-) TimerEvent: {}
+[5.327914] (-) TimerEvent: {}
+[5.428534] (-) TimerEvent: {}
+[5.529167] (-) TimerEvent: {}
+[5.629667] (-) TimerEvent: {}
+[5.729990] (-) TimerEvent: {}
+[5.830342] (-) TimerEvent: {}
+[5.930595] (-) TimerEvent: {}
+[6.030887] (-) TimerEvent: {}
+[6.131260] (-) TimerEvent: {}
+[6.231574] (-) TimerEvent: {}
+[6.331961] (-) TimerEvent: {}
+[6.432506] (-) TimerEvent: {}
+[6.532895] (-) TimerEvent: {}
+[6.633258] (-) TimerEvent: {}
+[6.733580] (-) TimerEvent: {}
+[6.833905] (-) TimerEvent: {}
+[6.934270] (-) TimerEvent: {}
+[7.034737] (-) TimerEvent: {}
+[7.135040] (-) TimerEvent: {}
+[7.235339] (-) TimerEvent: {}
+[7.335682] (-) TimerEvent: {}
+[7.436004] (-) TimerEvent: {}
+[7.536364] (-) TimerEvent: {}
+[7.636702] (-) TimerEvent: {}
+[7.737018] (-) TimerEvent: {}
+[7.837336] (-) TimerEvent: {}
+[7.937646] (-) TimerEvent: {}
+[8.038056] (-) TimerEvent: {}
+[8.138467] (-) TimerEvent: {}
+[8.238707] (-) TimerEvent: {}
+[8.339031] (-) TimerEvent: {}
+[8.367859] (pose_resolve) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pose_resolve_node\x1b[0m\n'}
+[8.439231] (-) TimerEvent: {}
+[8.539492] (-) TimerEvent: {}
+[8.640080] (-) TimerEvent: {}
+[8.740582] (-) TimerEvent: {}
+[8.840931] (-) TimerEvent: {}
+[8.941454] (-) TimerEvent: {}
+[9.037047] (pose_resolve) StdoutLine: {'line': b'[100%] Built target pose_resolve_node\n'}
+[9.041593] (-) TimerEvent: {}
+[9.055457] (pose_resolve) CommandEnded: {'returncode': 0}
+[9.056698] (pose_resolve) JobProgress: {'identifier': 'pose_resolve', 'progress': 'install'}
+[9.070270] (pose_resolve) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xyq/Desktop/ros_ws/build/pose_resolve'], 'cwd': '/home/xyq/Desktop/ros_ws/build/pose_resolve', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:'), ('MY_PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursorZssUIG:/tmp/.mount_cursorZssUIG/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xyq'), ('ROS_PACKAGE_PATH', '/opt/ros/humble/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/tmp/.mount_cursorjsQPxw/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/home/xyq/Desktop/ros_ws/install/serial_interface/lib:/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorZssUIG/usr/lib'), ('HOME', '/home/xyq'), ('CHROME_DESKTOP', 'cursor-url-handler.desktop'), ('APPDIR', '/tmp/.mount_cursorZssUIG'), ('TERM_PROGRAM_VERSION', '0.45.11'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xyq/.nvm/versions/node/v20.18.1/bin'), ('NVM_INC', '/home/xyq/.nvm/versions/node/v20.18.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_cursorjsQPxw/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_cursorjsQPxw/cursor'), ('MANAGERPID', '2135'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2468'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7c5ce2fbd62d0d49ddc246e267b1da49'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '102539'), ('NVM_DIR', '/home/xyq/.nvm'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('COLCON_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xyq'), ('OWD', '/home/xyq/Downloads'), ('JOURNAL_STREAM', '8:10552'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xyq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursorZssUIG:/tmp/.mount_cursorZssUIG/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64'), ('SESSION_MANAGER', 'local/xyq-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/2468,unix/xyq-Legion-Y7000P-IRH8:/tmp/.ICE-unix/2468'), ('INVOCATION_ID', 'fe247820f417432abcaf0d273d095027'), ('APPIMAGE', '/home/xyq/Downloads/cursor-0.45.11x86_64.AppImage'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f42ada78.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', '9ebe05dd5e8f4c239cda51640d6f7414'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_cursorZssUIG/usr/share/glib-2.0/schemas:'), ('AMENT_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/serial_port:/home/xyq/Desktop/ros_ws/install/serial_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_processing:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('ARGV0', '/home/xyq/Downloads/cursor-0.45.11x86_64.AppImage'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xyq/Desktop/ros_ws/build/pose_resolve'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7c5ce2fbd62d0d49ddc246e267b1da49'), ('XDG_DATA_DIRS', '/tmp/.mount_cursorZssUIG/usr/share/:./share/:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share/gnome/:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/xyq/Desktop/ros_ws/install/serial_interface/local/lib/python3.10/dist-packages:/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/serial_port:/home/xyq/Desktop/ros_ws/install/serial_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_processing:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble')]), 'shell': False}
+[9.079973] (pose_resolve) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.080283] (pose_resolve) StdoutLine: {'line': b'-- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node\n'}
+[9.084488] (pose_resolve) StdoutLine: {'line': b'-- Set runtime path of "/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node" to ""\n'}
+[9.084727] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/package_run_dependencies/pose_resolve\n'}
+[9.085009] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/parent_prefix_path/pose_resolve\n'}
+[9.085108] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.sh\n'}
+[9.085265] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.dsv\n'}
+[9.085376] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.sh\n'}
+[9.085487] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.dsv\n'}
+[9.085583] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.bash\n'}
+[9.085666] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.sh\n'}
+[9.085750] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.zsh\n'}
+[9.085840] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.dsv\n'}
+[9.085908] (pose_resolve) StdoutLine: {'line': b'-- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.dsv\n'}
+[9.085989] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/packages/pose_resolve\n'}
+[9.086067] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig.cmake\n'}
+[9.086131] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig-version.cmake\n'}
+[9.086199] (pose_resolve) StdoutLine: {'line': b'-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.xml\n'}
+[9.087620] (pose_resolve) CommandEnded: {'returncode': 0}
+[9.103698] (pose_resolve) JobEnded: {'identifier': 'pose_resolve', 'rc': 0}
+[9.104718] (-) EventReactorShutdown: {}

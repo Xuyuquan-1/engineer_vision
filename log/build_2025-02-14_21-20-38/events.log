@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (-) JobUnselected: {'identifier': 'camera_display'}
+[0.000306] (-) JobUnselected: {'identifier': 'camera_interface'}
+[0.000452] (-) JobUnselected: {'identifier': 'corner_detection'}
+[0.000607] (-) JobUnselected: {'identifier': 'image_display'}
+[0.000690] (-) JobUnselected: {'identifier': 'image_processing'}
+[0.000726] (-) JobUnselected: {'identifier': 'mindvision_camera'}
+[0.000777] (-) JobUnselected: {'identifier': 'mnist_bp'}
+[0.000801] (-) JobUnselected: {'identifier': 'pose_resolve'}
+[0.000874] (serial_port) JobQueued: {'identifier': 'serial_port', 'dependencies': OrderedDict()}
+[0.000905] (serial_port) JobStarted: {'identifier': 'serial_port'}
+[0.006824] (serial_port) JobProgress: {'identifier': 'serial_port', 'progress': 'cmake'}
+[0.007153] (serial_port) JobProgress: {'identifier': 'serial_port', 'progress': 'build'}
+[0.007630] (serial_port) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xyq/Desktop/ros_ws/build/serial_port', '--', '-j20', '-l20'], 'cwd': '/home/xyq/Desktop/ros_ws/build/serial_port', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:'), ('MY_PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursorCFDD9h:/tmp/.mount_cursorCFDD9h/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xyq'), ('ROS_PACKAGE_PATH', '/opt/ros/humble/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/tmp/.mount_cursorCFDD9h/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/home/xyq/Desktop/ros_ws/install/serial_interface/lib:/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib:/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorCFDD9h/usr/lib:'), ('HOME', '/home/xyq'), ('CHROME_DESKTOP', 'cursor-url-handler.desktop'), ('APPDIR', '/tmp/.mount_cursorCFDD9h'), ('TERM_PROGRAM_VERSION', '0.45.11'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xyq/.nvm/versions/node/v20.18.1/bin'), ('NVM_INC', '/home/xyq/.nvm/versions/node/v20.18.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_cursorCFDD9h/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_cursorCFDD9h/cursor'), ('MANAGERPID', '1898'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2231'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bbae511b66626039bd5020767af28ac'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23225'), ('NVM_DIR', '/home/xyq/.nvm'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('COLCON_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xyq'), ('OWD', '/home/xyq/Downloads'), ('JOURNAL_STREAM', '8:9433'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xyq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursorCFDD9h:/tmp/.mount_cursorCFDD9h/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64'), ('SESSION_MANAGER', 'local/xyq-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/2231,unix/xyq-Legion-Y7000P-IRH8:/tmp/.ICE-unix/2231'), ('INVOCATION_ID', '181c5d48a28743c0a974c3e349947ae4'), ('APPIMAGE', '/home/xyq/Downloads/cursor-0.45.11x86_64.AppImage'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f42ada78.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', 'eaebcd978f40494989031ca1172f7c52'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_cursorCFDD9h/usr/share/glib-2.0/schemas:'), ('AMENT_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/serial_port:/home/xyq/Desktop/ros_ws/install/serial_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_processing:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('ARGV0', '/home/xyq/Downloads/cursor-0.45.11x86_64.AppImage'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xyq/Desktop/ros_ws/build/serial_port'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bbae511b66626039bd5020767af28ac'), ('XDG_DATA_DIRS', '/tmp/.mount_cursorCFDD9h/usr/share/:./share/:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share/gnome/:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/xyq/Desktop/ros_ws/install/serial_interface/local/lib/python3.10/dist-packages:/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/serial_port:/home/xyq/Desktop/ros_ws/install/serial_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_processing:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble')]), 'shell': False}
+[0.030949] (serial_port) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099897] (-) TimerEvent: {}
+[0.125648] (serial_port) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)\n'}
+[0.130148] (serial_port) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.147585] (serial_port) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.148833] (serial_port) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.151923] (serial_port) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.156973] (serial_port) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.163455] (serial_port) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.185114] (serial_port) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.185804] (serial_port) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199994] (-) TimerEvent: {}
+[0.264609] (serial_port) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300210] (serial_port) StdoutLine: {'line': b'-- Found camera_interface: 0.0.0 (/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake)\n'}
+[0.300516] (-) TimerEvent: {}
+[0.308758] (serial_port) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.375258] (serial_port) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.375632] (serial_port) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.375739] (serial_port) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.375820] (serial_port) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.375940] (serial_port) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.376037] (serial_port) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.376152] (serial_port) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.376795] (serial_port) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.384285] (serial_port) StdoutLine: {'line': b'-- Generating done\n'}
+[0.386682] (serial_port) StdoutLine: {'line': b'-- Build files have been written to: /home/xyq/Desktop/ros_ws/build/serial_port\n'}
+[0.400701] (-) TimerEvent: {}
+[0.428958] (serial_port) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_port_node\x1b[0m\n'}
+[0.448047] (serial_port) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_port_node.dir/src/serial_port_node.cpp.o\x1b[0m\n'}
+[0.500806] (-) TimerEvent: {}
+[0.601199] (-) TimerEvent: {}
+[0.701700] (-) TimerEvent: {}
+[0.802336] (-) TimerEvent: {}
+[0.902902] (-) TimerEvent: {}
+[1.003554] (-) TimerEvent: {}
+[1.104044] (-) TimerEvent: {}
+[1.204438] (-) TimerEvent: {}
+[1.304969] (-) TimerEvent: {}
+[1.405829] (-) TimerEvent: {}
+[1.506293] (-) TimerEvent: {}
+[1.606801] (-) TimerEvent: {}
+[1.707447] (-) TimerEvent: {}
+[1.807932] (-) TimerEvent: {}
+[1.908491] (-) TimerEvent: {}
+[2.009128] (-) TimerEvent: {}
+[2.109681] (-) TimerEvent: {}
+[2.210184] (-) TimerEvent: {}
+[2.310657] (-) TimerEvent: {}
+[2.411134] (-) TimerEvent: {}
+[2.511826] (-) TimerEvent: {}
+[2.612256] (-) TimerEvent: {}
+[2.712678] (-) TimerEvent: {}
+[2.813293] (-) TimerEvent: {}
+[2.849010] (serial_port) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.849326] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.849365] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.849397] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.849425] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.849455] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.849480] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.849509] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.849534] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.849562] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.849586] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.849610] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.849636] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialPortSubscribe::callback(camera_interface::msg::Port_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.849665] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:22:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.849695] (serial_port) StderrLine: {'line': b'   22 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Received data: %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmsg->x\x1b[m\x1b[K);\n'}
+[2.849728] (serial_port) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[2.849758] (serial_port) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.849783] (serial_port) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[2.849807] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:22:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.849834] (serial_port) StderrLine: {'line': b'   22 |         RCLCPP_INFO(this->get_logger(), "Received data: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", msg->x);\n'}
+[2.849860] (serial_port) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.849884] (serial_port) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.849908] (serial_port) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.849935] (serial_port) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[2.852630] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.852851] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:37:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kauto node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.852890] (serial_port) StderrLine: {'line': b'   37 |         auto \x1b[01;31m\x1b[Knode\x1b[m\x1b[K = rclcpp::Node::make_shared("serial_port_node");\n'}
+[2.852919] (serial_port) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.852946] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:32:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node> node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.852980] (serial_port) StderrLine: {'line': b'   32 |         std::shared_ptr<rclcpp::Node> \x1b[01;36m\x1b[Knode\x1b[m\x1b[K = std::make_shared<SerialPortSubscribe>("serial_port_node");\n'}
+[2.853021] (serial_port) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.913491] (-) TimerEvent: {}
+[3.013942] (-) TimerEvent: {}
+[3.114303] (-) TimerEvent: {}
+[3.214888] (-) TimerEvent: {}
+[3.315336] (-) TimerEvent: {}
+[3.415800] (-) TimerEvent: {}
+[3.455365] (serial_port) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.455643] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.455682] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/vector:64\x1b[m\x1b[K,\n'}
+[3.455714] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/serial/serial.h:40\x1b[m\x1b[K,\n'}
+[3.455743] (serial_port) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.455774] (serial_port) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = SerialPortSubscribe; _Args = {const char (&)[17]}; _Tp = SerialPortSubscribe]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.455822] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = SerialPortSubscribe; _Args = {const char (&)[17]}; _Tp = SerialPortSubscribe; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<SerialPortSubscribe>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.455853] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[17]}; _Tp = SerialPortSubscribe; _Alloc = std::allocator<SerialPortSubscribe>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.455886] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SerialPortSubscribe; _Alloc = std::allocator<SerialPortSubscribe>; _Args = {const char (&)[17]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.455916] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SerialPortSubscribe>; _Args = {const char (&)[17]}; _Tp = SerialPortSubscribe; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.455948] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SerialPortSubscribe>; _Args = {const char (&)[17]}; _Tp = SerialPortSubscribe]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.455977] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SerialPortSubscribe; _Alloc = std::allocator<SerialPortSubscribe>; _Args = {const char (&)[17]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.456018] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SerialPortSubscribe; _Args = {const char (&)[17]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.456048] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:32:83:\x1b[m\x1b[K   required from here\n'}
+[3.456075] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSerialPortSubscribe::SerialPortSubscribe(const char [17])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.456102] (serial_port) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.456133] (serial_port) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.456157] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:17:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KSerialPortSubscribe::SerialPortSubscribe()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.456182] (serial_port) StderrLine: {'line': b'   17 |     \x1b[01;36m\x1b[KSerialPortSubscribe\x1b[m\x1b[K():Node("serial_port_node"){\n'}
+[3.456208] (serial_port) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.456233] (serial_port) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:17:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[3.515936] (-) TimerEvent: {}
+[3.616340] (-) TimerEvent: {}
+[3.716726] (-) TimerEvent: {}
+[3.817178] (-) TimerEvent: {}
+[3.917852] (-) TimerEvent: {}
+[4.018501] (-) TimerEvent: {}
+[4.119041] (-) TimerEvent: {}
+[4.219747] (-) TimerEvent: {}
+[4.320278] (-) TimerEvent: {}
+[4.421687] (-) TimerEvent: {}
+[4.522183] (-) TimerEvent: {}
+[4.622734] (-) TimerEvent: {}
+[4.723243] (-) TimerEvent: {}
+[4.823747] (-) TimerEvent: {}
+[4.924351] (-) TimerEvent: {}
+[5.024797] (-) TimerEvent: {}
+[5.125454] (-) TimerEvent: {}
+[5.226330] (-) TimerEvent: {}
+[5.327663] (-) TimerEvent: {}
+[5.428108] (-) TimerEvent: {}
+[5.440757] (serial_port) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/serial_port_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/serial_port_node.dir/src/serial_port_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.441022] (serial_port) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/serial_port_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.441125] (serial_port) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.443398] (serial_port) CommandEnded: {'returncode': 2}
+[5.455224] (serial_port) JobEnded: {'identifier': 'serial_port', 'rc': 2}
+[5.465801] (-) EventReactorShutdown: {}

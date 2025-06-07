@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/xyq/Desktop/ros_ws/build/serial_port': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/serial_port -- -j20 -l20
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target serial_port_node[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_port_node.dir/src/serial_port_node.cpp.o[0m
+[2.712s] [100%] [32m[1mLinking CXX executable serial_port_node[0m
+[2.824s] [100%] Built target serial_port_node
+[2.840s] Invoked command in '/home/xyq/Desktop/ros_ws/build/serial_port' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/serial_port -- -j20 -l20
+[2.854s] Invoking command in '/home/xyq/Desktop/ros_ws/build/serial_port': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/serial_port
+[2.862s] -- Install configuration: ""
+[2.863s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/lib/serial_port/serial_port_node
+[2.863s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/serial_port/lib/serial_port/serial_port_node" to ""
+[2.863s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/package_run_dependencies/serial_port
+[2.863s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/parent_prefix_path/serial_port
+[2.863s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.sh
+[2.863s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.dsv
+[2.863s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.sh
+[2.863s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.dsv
+[2.863s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.bash
+[2.864s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.sh
+[2.864s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.zsh
+[2.864s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.dsv
+[2.864s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.dsv
+[2.864s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/packages/serial_port
+[2.864s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig.cmake
+[2.864s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig-version.cmake
+[2.864s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.xml
+[2.866s] Invoked command in '/home/xyq/Desktop/ros_ws/build/serial_port' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/serial_port

@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000688] (-) JobUnselected: {'identifier': 'camera_display'}
+[0.000765] (-) JobUnselected: {'identifier': 'camera_interface'}
+[0.000801] (-) JobUnselected: {'identifier': 'corner_detection'}
+[0.000833] (-) JobUnselected: {'identifier': 'image_display'}
+[0.000865] (-) JobUnselected: {'identifier': 'image_processing'}
+[0.000933] (-) JobUnselected: {'identifier': 'mindvision_camera'}
+[0.000953] (-) JobUnselected: {'identifier': 'mnist_bp'}
+[0.001035] (-) JobUnselected: {'identifier': 'serial_port'}
+[0.001062] (pose_resolve) JobQueued: {'identifier': 'pose_resolve', 'dependencies': OrderedDict([('camera_interface', '/home/xyq/Desktop/ros_ws/install/camera_interface')])}
+[0.001095] (pose_resolve) JobStarted: {'identifier': 'pose_resolve'}
+[0.011336] (pose_resolve) JobProgress: {'identifier': 'pose_resolve', 'progress': 'cmake'}
+[0.013410] (pose_resolve) JobProgress: {'identifier': 'pose_resolve', 'progress': 'build'}
+[0.013548] (pose_resolve) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xyq/Desktop/ros_ws/build/pose_resolve', '--', '-j20', '-l20'], 'cwd': '/home/xyq/Desktop/ros_ws/build/pose_resolve', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:'), ('MY_PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursorCFDD9h:/tmp/.mount_cursorCFDD9h/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/home/xyq'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'xyq'), ('ROS_PACKAGE_PATH', '/opt/ros/humble/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/tmp/.mount_cursorCFDD9h/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/home/xyq/Desktop/ros_ws/install/serial_interface/lib:/home/xyq/Desktop/ros_ws/install/mindvision_camera/lib:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib/nvonnxparser:/home/xyq/env/TensorRT-10.5.0.18.Linux.x86_64-gnu.cuda-12.6/TensorRT-10.5.0.18/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/tmp/.mount_cursorCFDD9h/usr/lib'), ('HOME', '/home/xyq'), ('CHROME_DESKTOP', 'cursor-url-handler.desktop'), ('APPDIR', '/tmp/.mount_cursorCFDD9h'), ('TERM_PROGRAM_VERSION', '0.45.11'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/xyq/.nvm/versions/node/v20.18.1/bin'), ('NVM_INC', '/home/xyq/.nvm/versions/node/v20.18.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/tmp/.mount_cursorCFDD9h/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/tmp/.mount_cursorCFDD9h/cursor'), ('MANAGERPID', '1898'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2231'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bbae511b66626039bd5020767af28ac'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23225'), ('NVM_DIR', '/home/xyq/.nvm'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('COLCON_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'xyq'), ('OWD', '/home/xyq/Downloads'), ('JOURNAL_STREAM', '8:9433'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xyq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/xyq/.local/bin:/home/xyq/.nvm/versions/node/v20.18.1/bin:/opt/ros/humble/bin:/tmp/.mount_cursorCFDD9h:/tmp/.mount_cursorCFDD9h/usr/sbin:/home/xyq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64:/home/xyq/.local/share/JetBrains/Toolbox/scripts:/opt/Typora-linux-x64'), ('SESSION_MANAGER', 'local/xyq-Legion-Y7000P-IRH8:@/tmp/.ICE-unix/2231,unix/xyq-Legion-Y7000P-IRH8:/tmp/.ICE-unix/2231'), ('INVOCATION_ID', '181c5d48a28743c0a974c3e349947ae4'), ('APPIMAGE', '/home/xyq/Downloads/cursor-0.45.11x86_64.AppImage'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f42ada78.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', 'eaebcd978f40494989031ca1172f7c52'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/tmp/.mount_cursorCFDD9h/usr/share/glib-2.0/schemas:'), ('AMENT_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/serial_port:/home/xyq/Desktop/ros_ws/install/serial_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_processing:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('ARGV0', '/home/xyq/Downloads/cursor-0.45.11x86_64.AppImage'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xyq/Desktop/ros_ws/build/pose_resolve'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9bbae511b66626039bd5020767af28ac'), ('XDG_DATA_DIRS', '/tmp/.mount_cursorCFDD9h/usr/share/:./share/:/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share/gnome/:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/xyq/Desktop/ros_ws/install/serial_interface/local/lib/python3.10/dist-packages:/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xyq/Desktop/ros_ws/install/camera_interface:/home/xyq/Desktop/ros_ws/install/serial_port:/home/xyq/Desktop/ros_ws/install/serial_interface:/home/xyq/Desktop/ros_ws/install/pose_resolve:/home/xyq/Desktop/ros_ws/install/mindvision_camera:/home/xyq/Desktop/ros_ws/install/image_processing:/home/xyq/Desktop/ros_ws/install/image_display:/home/xyq/Desktop/ros_ws/install/corner_detection:/home/xyq/Desktop/ros_ws/install/camera_display:/opt/ros/humble')]), 'shell': False}
+[0.044067] (pose_resolve) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099751] (-) TimerEvent: {}
+[0.142856] (pose_resolve) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.163995] (pose_resolve) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.165220] (pose_resolve) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.168709] (pose_resolve) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.174938] (pose_resolve) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.182309] (pose_resolve) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199922] (-) TimerEvent: {}
+[0.201400] (pose_resolve) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.202219] (pose_resolve) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.286666] (pose_resolve) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300106] (-) TimerEvent: {}
+[0.322627] (pose_resolve) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.356906] (pose_resolve) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.358271] (pose_resolve) StdoutLine: {'line': b'-- Found camera_interface: 0.0.0 (/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake)\n'}
+[0.365290] (pose_resolve) StdoutLine: {'line': b'-- Found serial_interface: 0.0.0 (/home/xyq/Desktop/ros_ws/install/serial_interface/share/serial_interface/cmake)\n'}
+[0.374220] (pose_resolve) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400236] (-) TimerEvent: {}
+[0.444291] (pose_resolve) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.444732] (pose_resolve) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.444843] (pose_resolve) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.445432] (pose_resolve) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.446068] (pose_resolve) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.446172] (pose_resolve) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.446270] (pose_resolve) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.447010] (pose_resolve) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.463519] (pose_resolve) StdoutLine: {'line': b'-- Generating done\n'}
+[0.468878] (pose_resolve) StdoutLine: {'line': b'-- Build files have been written to: /home/xyq/Desktop/ros_ws/build/pose_resolve\n'}
+[0.500444] (-) TimerEvent: {}
+[0.508361] (pose_resolve) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pose_resolve_node\x1b[0m\n'}
+[0.534387] (pose_resolve) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o\x1b[0m\n'}
+[0.600572] (-) TimerEvent: {}
+[0.701260] (-) TimerEvent: {}
+[0.801981] (-) TimerEvent: {}
+[0.902538] (-) TimerEvent: {}
+[1.003152] (-) TimerEvent: {}
+[1.103663] (-) TimerEvent: {}
+[1.205027] (-) TimerEvent: {}
+[1.305722] (-) TimerEvent: {}
+[1.406171] (-) TimerEvent: {}
+[1.506619] (-) TimerEvent: {}
+[1.607162] (-) TimerEvent: {}
+[1.707697] (-) TimerEvent: {}
+[1.808155] (-) TimerEvent: {}
+[1.908553] (-) TimerEvent: {}
+[2.008935] (-) TimerEvent: {}
+[2.109423] (-) TimerEvent: {}
+[2.209755] (-) TimerEvent: {}
+[2.310294] (-) TimerEvent: {}
+[2.410737] (-) TimerEvent: {}
+[2.511301] (-) TimerEvent: {}
+[2.611740] (-) TimerEvent: {}
+[2.712246] (-) TimerEvent: {}
+[2.812829] (-) TimerEvent: {}
+[2.913380] (-) TimerEvent: {}
+[3.013811] (-) TimerEvent: {}
+[3.114362] (-) TimerEvent: {}
+[3.214766] (-) TimerEvent: {}
+[3.315170] (-) TimerEvent: {}
+[3.415630] (-) TimerEvent: {}
+[3.516177] (-) TimerEvent: {}
+[3.616937] (-) TimerEvent: {}
+[3.717580] (-) TimerEvent: {}
+[3.818608] (-) TimerEvent: {}
+[3.919202] (-) TimerEvent: {}
+[4.019789] (-) TimerEvent: {}
+[4.120253] (-) TimerEvent: {}
+[4.178441] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid solve_pnp(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.178786] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:123:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<cv::Point_<float> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.178884] (pose_resolve) StderrLine: {'line': b'  123 | r(int i=0;\x1b[01;35m\x1b[Ki<corner_2d.size()\x1b[m\x1b[K;i++){\n'}
+[4.178951] (pose_resolve) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.179015] (pose_resolve) StderrLine: {'line': b'\n'}
+[4.179593] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:128:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<cv::Point3_<float> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.179746] (pose_resolve) StderrLine: {'line': b'  128 | r(int i=0;\x1b[01;35m\x1b[Ki<corner_3d.size()\x1b[m\x1b[K;i++){\n'}
+[4.179819] (pose_resolve) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.179883] (pose_resolve) StderrLine: {'line': b'\n'}
+[4.220440] (-) TimerEvent: {}
+[4.321081] (-) TimerEvent: {}
+[4.422010] (-) TimerEvent: {}
+[4.522814] (-) TimerEvent: {}
+[4.623273] (-) TimerEvent: {}
+[4.723951] (-) TimerEvent: {}
+[4.824484] (-) TimerEvent: {}
+[4.924859] (-) TimerEvent: {}
+[5.025319] (-) TimerEvent: {}
+[5.125890] (-) TimerEvent: {}
+[5.226351] (-) TimerEvent: {}
+[5.326728] (-) TimerEvent: {}
+[5.426986] (-) TimerEvent: {}
+[5.527342] (-) TimerEvent: {}
+[5.581441] (pose_resolve) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[5.581983] (pose_resolve) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[5.582192] (pose_resolve) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[5.582258] (pose_resolve) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[5.582338] (pose_resolve) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.582407] (pose_resolve) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = PosePublisher; _Args = {const char (&)[9]}; _Tp = PosePublisher]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.582479] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = PosePublisher; _Args = {const char (&)[9]}; _Tp = PosePublisher; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<PosePublisher>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.582589] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[9]}; _Tp = PosePublisher; _Alloc = std::allocator<PosePublisher>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.582653] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = PosePublisher; _Alloc = std::allocator<PosePublisher>; _Args = {const char (&)[9]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.582719] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<PosePublisher>; _Args = {const char (&)[9]}; _Tp = PosePublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.582782] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<PosePublisher>; _Args = {const char (&)[9]}; _Tp = PosePublisher]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.582848] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = PosePublisher; _Alloc = std::allocator<PosePublisher>; _Args = {const char (&)[9]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.582911] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = PosePublisher; _Args = {const char (&)[9]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.582995] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:273:73:\x1b[m\x1b[K   required from here\n'}
+[5.583060] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPosePublisher::PosePublisher(const char [9])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.583143] (pose_resolve) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[5.583206] (pose_resolve) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.583250] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:241:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KPosePublisher::PosePublisher()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.583417] (pose_resolve) StderrLine: {'line': b'  241 |     \x1b[01;36m\x1b[KPosePublisher\x1b[m\x1b[K():Node("name"){\n'}
+[5.583510] (pose_resolve) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.585290] (pose_resolve) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:241:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[5.627483] (-) TimerEvent: {}
+[5.727786] (-) TimerEvent: {}
+[5.828182] (-) TimerEvent: {}
+[5.846245] (pose_resolve) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pose_resolve_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.846520] (pose_resolve) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/pose_resolve_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.846621] (pose_resolve) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.849050] (pose_resolve) CommandEnded: {'returncode': 2}
+[5.855410] (pose_resolve) JobEnded: {'identifier': 'pose_resolve', 'rc': 2}
+[5.865767] (-) EventReactorShutdown: {}

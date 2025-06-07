@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f3a8a68170daef14cd33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "serial_interface__py",
+					"jsonFile" : "directory-serial_interface__py-3654fdf8dbc8f5027ce4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/xyq/Desktop/ros_ws/build/serial_interface/serial_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "serial_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_serial_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_serial_interface_egg-97204149a070d9e8bd9f.json",
+					"name" : "ament_cmake_python_build_serial_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_serial_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_serial_interface-ebe7630b7f073886c827.json",
+					"name" : "ament_cmake_python_copy_serial_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface-8c8f23d215499cd0d10d.json",
+					"name" : "serial_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__cpp-f80216741e9d5d8e9a53.json",
+					"name" : "serial_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "serial_interface__py::@49f65373dea75b29ba40",
+					"jsonFile" : "target-serial_interface__py-09c9d0e90eb96e8b3cd1.json",
+					"name" : "serial_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_generator_c-bee446b80e161d4a07ec.json",
+					"name" : "serial_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_generator_py-eae55fd2afcb03225266.json",
+					"name" : "serial_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_c-e834496a1561a70c6a55.json",
+					"name" : "serial_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_c__pyext-84decb83fdff49bf07fe.json",
+					"name" : "serial_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_cpp-5cfabf9bb499ed8f46aa.json",
+					"name" : "serial_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_fastrtps_c-2569e10574980e2c4e02.json",
+					"name" : "serial_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_fastrtps_c__pyext-76f5ace5b7a66de69c55.json",
+					"name" : "serial_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_fastrtps_cpp-02c045de9211df496965.json",
+					"name" : "serial_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_introspection_c-f52264387fce09cad9f6.json",
+					"name" : "serial_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_introspection_c__pyext-3360079c1ad30dcec3ec.json",
+					"name" : "serial_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface__rosidl_typesupport_introspection_cpp-763c57196d5402c2bea9.json",
+					"name" : "serial_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_interface_uninstall-f8d6d792c7102f03862e.json",
+					"name" : "serial_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-21702c8b2c0abc34e3ca.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xyq/Desktop/ros_ws/build/serial_interface",
+		"source" : "/home/xyq/Desktop/ros_ws/src/serial_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

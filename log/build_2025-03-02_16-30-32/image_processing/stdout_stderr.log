@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target image_processing[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_processing.dir/src/image_info.cpp.o[0m
+[01m[K/home/xyq/Desktop/ros_ws/src/image_processing/src/image_info.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/xyq/Desktop/ros_ws/src/image_processing/src/image_info.cpp:10:18:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kcv::Mat cv::Mat::col(int) const[m[K’
+   10 |         [01;31m[Kstd::cout<<image.col[m[K<<" "<<image.rows<<std::endl;
+      |         [01;31m[K~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3764[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/xyq/Desktop/ros_ws/src/image_processing/src/image_info.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:601:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  601 | Mat [01;36m[KMat[m[K::col(int x) const
+      |     [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/image_processing.dir/build.make:76：CMakeFiles/image_processing.dir/src/image_info.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/image_processing.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

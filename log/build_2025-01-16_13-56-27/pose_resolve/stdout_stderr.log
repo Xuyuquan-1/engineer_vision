@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target pose_resolve_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o[0m
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:[m[K In function ‘[01m[Kvoid solve_pnp(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:101:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  101 |     for(int i=0;[01;35m[Ki<corner_2d.size()[m[K;i++){
+      |                 [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:106:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Point3_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  106 |     for(int i=0;[01;35m[Ki<corner_3d.size()[m[K;i++){
+      |                 [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:113:78:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+  113 |     bool pnp_flag = cv::solvePnP(corner_3d, corner_2d, K, C, rvet, tvet, [01;35m[Kcv::SOLVEPNP_P3P[m[K);
+      |                                                                          [01;35m[K~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:70:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcorner_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   70 | void solve_pnp(std::vector<double> corner_x, [01;35m[Kstd::vector<double> corner_y[m[K){
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable pose_resolve_node[0m
+[100%] Built target pose_resolve_node
+-- Install configuration: ""
+-- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node
+-- Set runtime path of "/home/xyq/Desktop/ros_ws/install/pose_resolve/lib/pose_resolve/pose_resolve_node" to ""
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/package_run_dependencies/pose_resolve
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/parent_prefix_path/pose_resolve
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.sh
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/environment/path.dsv
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.bash
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.sh
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.zsh
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/local_setup.dsv
+-- Installing: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.dsv
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/ament_index/resource_index/packages/pose_resolve
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig.cmake
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/cmake/pose_resolveConfig-version.cmake
+-- Up-to-date: /home/xyq/Desktop/ros_ws/install/pose_resolve/share/pose_resolve/package.xml

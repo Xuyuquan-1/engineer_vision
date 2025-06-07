@@ -1,0 +1,15 @@
+/home/xyq/Desktop/ros_ws/install/image_display/share/ament_index/resource_index/package_run_dependencies/image_display
+/home/xyq/Desktop/ros_ws/install/image_display/share/ament_index/resource_index/parent_prefix_path/image_display
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/environment/ament_prefix_path.sh
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/environment/ament_prefix_path.dsv
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/environment/path.sh
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/environment/path.dsv
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/local_setup.bash
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/local_setup.sh
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/local_setup.zsh
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/local_setup.dsv
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.dsv
+/home/xyq/Desktop/ros_ws/install/image_display/share/ament_index/resource_index/packages/image_display
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/cmake/image_displayConfig.cmake
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/cmake/image_displayConfig-version.cmake
+/home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.xml

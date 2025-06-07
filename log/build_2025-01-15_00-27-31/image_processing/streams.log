@@ -1,0 +1,29 @@
+[0.021s] Invoking command in '/home/xyq/Desktop/ros_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_processing -- -j20 -l20
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target image_processing[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processing.dir/src/bgr2gray.cpp.o[0m
+[2.326s] [01m[K/home/xyq/Desktop/ros_ws/src/image_processing/src/bgr2gray.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.326s] [01m[K/home/xyq/Desktop/ros_ws/src/image_processing/src/bgr2gray.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.326s]     8 | int main([01;35m[Kint argc[m[K, char *argv[]){
+[2.326s]       |          [01;35m[K~~~~^~~~[m[K
+[3.142s] [100%] [32m[1mLinking CXX executable image_processing[0m
+[3.398s] [100%] Built target image_processing
+[3.410s] Invoked command in '/home/xyq/Desktop/ros_ws/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_processing -- -j20 -l20
+[3.411s] Invoking command in '/home/xyq/Desktop/ros_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/image_processing
+[3.418s] -- Install configuration: ""
+[3.418s] -- Installing: /home/xyq/Desktop/ros_ws/install/image_processing/lib/image_processing/image_processing
+[3.418s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+[3.418s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/environment/path.sh
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/environment/path.dsv
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/local_setup.bash
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/local_setup.sh
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/local_setup.zsh
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/local_setup.dsv
+[3.419s] -- Installing: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.dsv
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/ament_index/resource_index/packages/image_processing
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+[3.419s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.xml
+[3.421s] Invoked command in '/home/xyq/Desktop/ros_ws/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/image_processing

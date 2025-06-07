@@ -1,0 +1,16 @@
+/home/xyq/Desktop/ros_ws/install/image_processing/lib/image_processing/image_processing
+/home/xyq/Desktop/ros_ws/install/image_processing/share/ament_index/resource_index/package_run_dependencies/image_processing
+/home/xyq/Desktop/ros_ws/install/image_processing/share/ament_index/resource_index/parent_prefix_path/image_processing
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.sh
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/environment/ament_prefix_path.dsv
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/environment/path.sh
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/environment/path.dsv
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/local_setup.bash
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/local_setup.sh
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/local_setup.zsh
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/local_setup.dsv
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.dsv
+/home/xyq/Desktop/ros_ws/install/image_processing/share/ament_index/resource_index/packages/image_processing
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/cmake/image_processingConfig.cmake
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/cmake/image_processingConfig-version.cmake
+/home/xyq/Desktop/ros_ws/install/image_processing/share/image_processing/package.xml

@@ -1,0 +1,84 @@
+[0.015s] Invoking command in '/home/xyq/Desktop/ros_ws/build/pose_resolve': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target pose_resolve_node[0m
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o[0m
+[3.660s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[3.661s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.661s]                  from [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:6[m[K:
+[3.661s] /usr/include/opencv4/opencv2/core/mat.hpp: In instantiation of ‘[01m[Kclass cv::Mat_<long double>[m[K’:
+[3.661s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:44:46:[m[K   required from here
+[3.661s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:2202:50:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kchannel_type[m[K’ in ‘[01m[Kclass cv::DataType<long double>[m[K’
+[3.661s]  2202 |     typedef typename DataType<_Tp>::channel_type [01;31m[Kchannel_type[m[K;
+[3.661s]       |                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.661s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:2240:30:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kchannel_type[m[K’ in ‘[01m[Kclass cv::DataType<long double>[m[K’
+[3.661s]  2240 |     template<int n> explicit [01;31m[KMat_[m[K(const Vec<typename DataType<_Tp>::channel_type, n>& vec, bool copyData=true);
+[3.661s]       |                              [01;31m[K^~~~[m[K
+[3.661s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:2241:37:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kchannel_type[m[K’ in ‘[01m[Kclass cv::DataType<long double>[m[K’
+[3.661s]  2241 |     template<int m, int n> explicit [01;31m[KMat_[m[K(const Matx<typename DataType<_Tp>::channel_type, m, n>& mtx, bool copyData=true);
+[3.661s]       |                                     [01;31m[K^~~~[m[K
+[3.662s] In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3764[m[K,
+[3.662s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[3.662s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.662s]                  from [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:6[m[K:
+[3.662s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1383:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kchannel_type[m[K’ in ‘[01m[Kclass cv::DataType<long double>[m[K’
+[3.662s]  1383 | [01;31m[KMat_<_Tp>[m[K::Mat_(const Point_<typename DataType<_Tp>::channel_type>& pt, bool copyData)
+[3.662s]       | [01;31m[K^~~~~~~~~[m[K
+[3.662s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1392:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kchannel_type[m[K’ in ‘[01m[Kclass cv::DataType<long double>[m[K’
+[3.662s]  1392 | [01;31m[KMat_<_Tp>[m[K::Mat_(const Point3_<typename DataType<_Tp>::channel_type>& pt, bool copyData)
+[3.662s]       | [01;31m[K^~~~~~~~~[m[K
+[3.662s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[3.662s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.662s]                  from [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:6[m[K:
+[3.662s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:2357:21:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kchannel_type[m[K’ in ‘[01m[Kclass cv::DataType<long double>[m[K’
+[3.662s]  2357 |     template<int n> [01;31m[Koperator[m[K Vec<typename DataType<_Tp>::channel_type, n>() const;
+[3.663s]       |                     [01;31m[K^~~~~~~~[m[K
+[3.663s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:2359:28:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kchannel_type[m[K’ in ‘[01m[Kclass cv::DataType<long double>[m[K’
+[3.663s]  2359 |     template<int m, int n> [01;31m[Koperator[m[K Matx<typename DataType<_Tp>::channel_type, m, n>() const;
+[3.663s]       |                            [01;31m[K^~~~~~~~[m[K
+[3.677s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:[m[K In function ‘[01m[Kvoid solve_pnp(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[3.678s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:105:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.678s]   105 |     for(int i=0;[01;35m[Ki<corner_2d.size()[m[K;i++){
+[3.678s]       |                 [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[3.678s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:110:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Point3_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.678s]   110 |     for(int i=0;[01;35m[Ki<corner_3d.size()[m[K;i++){
+[3.678s]       |                 [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[3.678s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:117:78:[m[K [01;35m[Kwarning: [m[Kenum constant in boolean context [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+[3.678s]   117 |     bool pnp_flag = cv::solvePnP(corner_3d, corner_2d, K, C, rvet, tvet, [01;35m[Kcv::SOLVEPNP_AP3P[m[K);
+[3.678s]       |                                                                          [01;35m[K~~~~^~~~~~~~~~~~~[m[K
+[3.919s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:55[m[K,
+[3.920s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[3.920s]                  from [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:6[m[K:
+[3.920s] /usr/include/opencv4/opencv2/core/traits.hpp: In instantiation of ‘[01m[Kstruct cv::traits::Type<long double>[m[K’:
+[3.920s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1288:44:[m[K   required from ‘[01m[Kcv::Mat_<_Tp>::Mat_(int, int) [with _Tp = long double][m[K’
+[3.920s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:44:46:[m[K   required from here
+[3.920s] [01m[K/usr/include/opencv4/opencv2/core/traits.hpp:386:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktype[m[K’ is not a member of ‘[01m[Kcv::DataType<long double>[m[K’
+[3.920s]   386 | { enum { value = DataType<T>::[01;31m[Ktype[m[K }; };
+[3.920s]       |                               [01;31m[K^~~~[m[K
+[4.256s] /usr/include/opencv4/opencv2/core/traits.hpp: In instantiation of ‘[01m[Kstruct cv::traits::Depth<long double>[m[K’:
+[4.256s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1438:29:[m[K   required from ‘[01m[Kcv::Mat_<_Tp>& cv::Mat_<_Tp>::operator=(const cv::Mat&) [with _Tp = long double][m[K’
+[4.256s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1341:11:[m[K   required from ‘[01m[Kcv::Mat_<_Tp>::Mat_(const cv::Mat&) [with _Tp = long double][m[K’
+[4.256s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:2992:12:[m[K   required from ‘[01m[Kcv::MatCommaInitializer_<_Tp>::operator cv::Mat_<_Tp>() const [with _Tp = long double][m[K’
+[4.256s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:44:64:[m[K   required from here
+[4.256s] [01m[K/usr/include/opencv4/opencv2/core/traits.hpp:382:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kdepth[m[K’ is not a member of ‘[01m[Kcv::DataType<long double>[m[K’
+[4.256s]   382 | { enum { value = DataType<T>::[01;31m[Kdepth[m[K }; };
+[4.256s]       |                               [01;31m[K^~~~~[m[K
+[4.256s] In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3764[m[K,
+[4.256s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.256s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.257s]                  from [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:6[m[K:
+[4.257s] /usr/include/opencv4/opencv2/core/mat.inl.hpp: In instantiation of ‘[01m[Kcv::Mat_<_Tp>& cv::Mat_<_Tp>::operator=(const cv::Mat&) [with _Tp = long double][m[K’:
+[4.257s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1341:11:[m[K   required from ‘[01m[Kcv::Mat_<_Tp>::Mat_(const cv::Mat&) [with _Tp = long double][m[K’
+[4.257s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:2992:12:[m[K   required from ‘[01m[Kcv::MatCommaInitializer_<_Tp>::operator cv::Mat_<_Tp>() const [with _Tp = long double][m[K’
+[4.257s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:44:64:[m[K   required from here
+[4.257s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1440:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kchannels[m[K’ is not a member of ‘[01m[Kcv::DataType<long double>[m[K’
+[4.257s]  1440 |         return (*this = m.reshape(DataType<_Tp>::[01;31m[Kchannels[m[K, m.dims, 0));
+[4.257s]       |                                                  [01;31m[K^~~~~~~~[m[K
+[4.257s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:53[m[K,
+[4.257s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.257s]                  from [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:6[m[K:
+[4.257s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:1442:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kchannels[m[K’ is not a member of ‘[01m[Kcv::DataType<long double>[m[K’
+[4.257s]  1442 |     [01;31m[KCV_Assert[m[K(DataType<_Tp>::channels == m.channels() || m.empty());
+[4.257s]       |     [01;31m[K^~~~~~~~~[m[K
+[6.797s] gmake[2]: *** [CMakeFiles/pose_resolve_node.dir/build.make:76：CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o] 错误 1
+[6.797s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pose_resolve_node.dir/all] 错误 2
+[6.797s] gmake: *** [Makefile:146：all] 错误 2
+[6.799s] Invoked command in '/home/xyq/Desktop/ros_ws/build/pose_resolve' returned '2': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20

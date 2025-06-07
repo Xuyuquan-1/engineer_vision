@@ -1,0 +1,16 @@
+/home/xyq/Desktop/ros_ws/install/serial_port/lib/serial_port/serial_port_node
+/home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/package_run_dependencies/serial_port
+/home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/parent_prefix_path/serial_port
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.sh
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.dsv
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.sh
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.dsv
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.bash
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.sh
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.zsh
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.dsv
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.dsv
+/home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/packages/serial_port
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig.cmake
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig-version.cmake
+/home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.xml

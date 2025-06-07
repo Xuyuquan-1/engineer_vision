@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/xyq/Desktop/ros_ws/build/serial_port': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble NAUTILUS_SCRIPT_SELECTED_FILE_PATHS=/home/xyq/Desktop/ros_ws/src NAUTILUS_SCRIPT_SELECTED_URIS=file:///home/xyq/Desktop/ros_ws/src /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/serial_port -- -j20 -l20
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target serial_port_node[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_port_node.dir/src/serial_port_node.cpp.o[0m
+[1.465s] [100%] [32m[1mLinking CXX executable serial_port_node[0m
+[1.531s] [100%] Built target serial_port_node
+[1.540s] Invoked command in '/home/xyq/Desktop/ros_ws/build/serial_port' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble NAUTILUS_SCRIPT_SELECTED_FILE_PATHS=/home/xyq/Desktop/ros_ws/src NAUTILUS_SCRIPT_SELECTED_URIS=file:///home/xyq/Desktop/ros_ws/src /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/serial_port -- -j20 -l20
+[1.547s] Invoking command in '/home/xyq/Desktop/ros_ws/build/serial_port': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble NAUTILUS_SCRIPT_SELECTED_FILE_PATHS=/home/xyq/Desktop/ros_ws/src NAUTILUS_SCRIPT_SELECTED_URIS=file:///home/xyq/Desktop/ros_ws/src /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/serial_port
+[1.551s] -- Install configuration: ""
+[1.551s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/lib/serial_port/serial_port_node
+[1.551s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/serial_port/lib/serial_port/serial_port_node" to ""
+[1.551s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/package_run_dependencies/serial_port
+[1.551s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/parent_prefix_path/serial_port
+[1.551s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.sh
+[1.551s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.dsv
+[1.552s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.sh
+[1.552s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.dsv
+[1.552s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.bash
+[1.552s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.sh
+[1.552s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.zsh
+[1.552s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.dsv
+[1.552s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.dsv
+[1.552s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/packages/serial_port
+[1.552s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig.cmake
+[1.553s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig-version.cmake
+[1.553s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.xml
+[1.553s] Invoked command in '/home/xyq/Desktop/ros_ws/build/serial_port' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble NAUTILUS_SCRIPT_SELECTED_FILE_PATHS=/home/xyq/Desktop/ros_ws/src NAUTILUS_SCRIPT_SELECTED_URIS=file:///home/xyq/Desktop/ros_ws/src /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/serial_port

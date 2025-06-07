@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+[0.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.120s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.173s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.173s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.256s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.284s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[0.311s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.313s] -- Found camera_interface: 0.0.0 (/home/xyq/Desktop/ros_ws/install/camera_interface/share/camera_interface/cmake)
+[0.320s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.373s] -- Configured cppcheck include dirs: 
+[0.373s] -- Configured cppcheck exclude dirs and/or files: 
+[0.374s] -- Added test 'lint_cmake' to check CMake code style
+[0.374s] -- Added test 'uncrustify' to check C / C++ code style
+[0.374s] -- Configured uncrustify additional arguments: 
+[0.374s] -- Added test 'xmllint' to check XML markup files
+[0.375s] -- Configuring done
+[0.387s] -- Generating done
+[0.390s] -- Build files have been written to: /home/xyq/Desktop/ros_ws/build/corner_detection
+[0.416s] [35m[1mConsolidate compiler generated dependencies of target corner_detection_node[0m
+[0.441s] [ 50%] [32mBuilding CXX object CMakeFiles/corner_detection_node.dir/src/corner_detection.cpp.o[0m
+[2.610s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:[m[K In function ‘[01m[Kstd::vector<cv::Point_<int> > CornerDetect(cv::Mat&)[m[K’:
+[2.610s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:144:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.610s]   144 |                 for(int i=0;[01;35m[Ki<mul_polys.size()-1[m[K;i++){
+[2.610s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[2.610s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:146:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.610s]   146 |                         for(int j=0;[01;35m[Kj<mul_polys.size()-1[m[K;j++){
+[2.610s]       |                                     [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[2.611s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:168:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.611s]   168 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+[2.611s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[2.612s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:228:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.612s]   228 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+[2.612s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[2.612s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:232:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.612s]   232 |                 for(int i=0;[01;35m[Ki<mul_polys.size()[m[K;i++){
+[2.612s]       |                             [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[2.612s] [01m[K/home/xyq/Desktop/ros_ws/src/corner_detection/src/corner_detection.cpp:236:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.613s]   236 |                         if([01;35m[Ki == mul_polys.size()-1[m[K){
+[2.613s]       |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.882s] [100%] [32m[1mLinking CXX executable corner_detection_node[0m
+[4.362s] [100%] Built target corner_detection_node

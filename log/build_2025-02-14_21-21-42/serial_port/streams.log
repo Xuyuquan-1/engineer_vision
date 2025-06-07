@@ -1,0 +1,54 @@
+[0.012s] Invoking command in '/home/xyq/Desktop/ros_ws/build/serial_port': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/serial_port -- -j20 -l20
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target serial_port_node[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_port_node.dir/src/serial_port_node.cpp.o[0m
+[2.505s] [01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:[m[K In constructor ‘[01m[KSerialPortSubscribe::SerialPortSubscribe(const char*)[m[K’:
+[2.506s] [01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:17:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.506s]    17 |     SerialPortSubscribe([01;35m[Kconst char* name[m[K):Node("serial_port_node"){
+[2.506s]       |                         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[2.510s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.510s]                  from [01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:2[m[K:
+[2.510s] [01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:[m[K In member function ‘[01m[Kvoid SerialPortSubscribe::callback(camera_interface::msg::Port_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.510s] [01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:22:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.510s]    22 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received data: %d"[m[K, [32m[Kmsg->x[m[K);
+[2.511s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[2.511s]       |                                                                   [32m[K|[m[K
+[2.511s]       |                                                                   [32m[Kdouble[m[K
+[2.511s] [01m[K/home/xyq/Desktop/ros_ws/src/serial_port/src/serial_port_node.cpp:22:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.511s]    22 |         RCLCPP_INFO(this->get_logger(), "Received data: [01;36m[K%d[m[K", msg->x);
+[2.511s]       |                                                         [01;36m[K~^[m[K
+[2.511s]       |                                                          [01;36m[K|[m[K
+[2.511s]       |                                                          [01;36m[Kint[m[K
+[2.511s]       |                                                         [32m[K%f[m[K
+[7.383s] [100%] [32m[1mLinking CXX executable serial_port_node[0m
+[7.794s] [100%] Built target serial_port_node
+[7.809s] Invoked command in '/home/xyq/Desktop/ros_ws/build/serial_port' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/serial_port -- -j20 -l20
+[7.828s] Invoking command in '/home/xyq/Desktop/ros_ws/build/serial_port': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/serial_port
+[7.839s] -- Install configuration: ""
+[7.839s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/lib/serial_port/serial_port_node
+[7.842s] -- Set runtime path of "/home/xyq/Desktop/ros_ws/install/serial_port/lib/serial_port/serial_port_node" to ""
+[7.842s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/package_run_dependencies/serial_port
+[7.843s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/parent_prefix_path/serial_port
+[7.843s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.sh
+[7.843s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/ament_prefix_path.dsv
+[7.844s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.sh
+[7.844s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/environment/path.dsv
+[7.844s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.bash
+[7.844s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.sh
+[7.844s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.zsh
+[7.844s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/local_setup.dsv
+[7.844s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.dsv
+[7.844s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/ament_index/resource_index/packages/serial_port
+[7.844s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig.cmake
+[7.844s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/cmake/serial_portConfig-version.cmake
+[7.844s] -- Installing: /home/xyq/Desktop/ros_ws/install/serial_port/share/serial_port/package.xml
+[7.849s] Invoked command in '/home/xyq/Desktop/ros_ws/build/serial_port' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/serial_port

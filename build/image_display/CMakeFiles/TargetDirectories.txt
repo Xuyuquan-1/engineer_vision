@@ -1,0 +1,9 @@
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/uninstall.dir
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/image_display_uninstall.dir
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/test.dir
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/edit_cache.dir
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/rebuild_cache.dir
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/list_install_components.dir
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/install.dir
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/install/local.dir
+/home/xyq/Desktop/ros_ws/build/image_display/CMakeFiles/install/strip.dir

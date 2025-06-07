@@ -1,0 +1,11 @@
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:[m[K In function ‘[01m[Kvoid PoseResolveCallback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:14:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcorner[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   14 | void PoseResolveCallback([01;35m[Kconst camera_interface::msg::Corner::ConstSharedPtr &corner[m[K){
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:32:28:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual void rclcpp::Executor::spin()[m[K’ without object
+   32 |      [01;31m[Krclcpp::Executor::spin()[m[K;
+      |      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/pose_resolve_node.dir/build.make:76：CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pose_resolve_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

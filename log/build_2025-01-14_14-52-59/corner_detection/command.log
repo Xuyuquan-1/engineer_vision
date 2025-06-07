@@ -1,0 +1,6 @@
+Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/corner_detection -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/corner_detection
+Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/corner_detection -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/corner_detection
+Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/corner_detection -- -j20 -l20
+Invoking command in '/home/xyq/Desktop/ros_ws/build/corner_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/corner_detection
+Invoked command in '/home/xyq/Desktop/ros_ws/build/corner_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/corner_detection

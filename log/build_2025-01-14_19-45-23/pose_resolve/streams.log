@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/xyq/Desktop/ros_ws/build/pose_resolve': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target pose_resolve_node[0m
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o[0m
+[1.756s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:[m[K In function ‘[01m[Kvoid PoseResolveCallback(const ConstSharedPtr&)[m[K’:
+[1.756s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:14:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcorner[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.756s]    14 | void PoseResolveCallback([01;35m[Kconst camera_interface::msg::Corner::ConstSharedPtr &corner[m[K){
+[1.756s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.778s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:[m[K In constructor ‘[01m[KPoseResolve::PoseResolve(std::string)[m[K’:
+[1.778s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PoseResolve[m[K’ has no member named ‘[01m[Kcreate_subscribe[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[1.778s]    21 |         subscriber = this->[01;31m[Kcreate_subscribe[m[K<camera_interface::msg::Corner>("corners_2d", 4, PoseResolveCallback);
+[1.778s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.778s]       |                            [32m[Kcreate_subscription[m[K
+[1.778s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:21:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.778s]    21 |         subscriber = this->create_subscribe<camera_interface::msg::Corner[01;31m[K>[m[K("corners_2d", 4, PoseResolveCallback);
+[1.779s]       |                                                                          [01;31m[K^[m[K
+[1.779s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:21:76:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[1.779s]    21 |         subscriber = this->create_subscribe<camera_interface::msg::Corner>([01;35m[K"corners_2d"[m[K, 4, PoseResolveCallback);
+[1.779s]       |                                                                            [01;35m[K^~~~~~~~~~~~[m[K
+[1.779s] [01m[K/home/xyq/Desktop/ros_ws/src/pose_resolve/src/pose_resolve_node.cpp:21:93:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[1.779s]    21 |         subscriber = this->create_subscribe<camera_interface::msg::Corner>("corners_2d", 4, [01;35m[KPoseResolveCallback[m[K);
+[1.779s]       |                                                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.519s] gmake[2]: *** [CMakeFiles/pose_resolve_node.dir/build.make:76：CMakeFiles/pose_resolve_node.dir/src/pose_resolve_node.cpp.o] 错误 1
+[2.519s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pose_resolve_node.dir/all] 错误 2
+[2.520s] gmake: *** [Makefile:146：all] 错误 2
+[2.521s] Invoked command in '/home/xyq/Desktop/ros_ws/build/pose_resolve' returned '2': AMENT_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/xyq/Desktop/ros_ws/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xyq/Desktop/ros_ws/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/pose_resolve -- -j20 -l20

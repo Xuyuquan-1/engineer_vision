@@ -1,0 +1,4 @@
+Invoking command in '/home/xyq/Desktop/ros_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/image_processing -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/image_processing
+Invoked command in '/home/xyq/Desktop/ros_ws/build/image_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xyq/Desktop/ros_ws/src/image_processing -DCMAKE_INSTALL_PREFIX=/home/xyq/Desktop/ros_ws/install/image_processing
+Invoking command in '/home/xyq/Desktop/ros_ws/build/image_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_processing -- -j20 -l20
+Invoked command in '/home/xyq/Desktop/ros_ws/build/image_processing' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_processing -- -j20 -l20

@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/xyq/Desktop/ros_ws/build/image_display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_display -- -j20 -l20
+[0.050s] Invoked command in '/home/xyq/Desktop/ros_ws/build/image_display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xyq/Desktop/ros_ws/build/image_display -- -j20 -l20
+[0.060s] Invoking command in '/home/xyq/Desktop/ros_ws/build/image_display': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/image_display
+[0.067s] -- Install configuration: ""
+[0.067s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/ament_index/resource_index/package_run_dependencies/image_display
+[0.067s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/ament_index/resource_index/parent_prefix_path/image_display
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/environment/ament_prefix_path.sh
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/environment/ament_prefix_path.dsv
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/environment/path.sh
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/environment/path.dsv
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/local_setup.bash
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/local_setup.sh
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/local_setup.zsh
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/local_setup.dsv
+[0.068s] -- Installing: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.dsv
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/ament_index/resource_index/packages/image_display
+[0.068s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/cmake/image_displayConfig.cmake
+[0.069s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/cmake/image_displayConfig-version.cmake
+[0.069s] -- Up-to-date: /home/xyq/Desktop/ros_ws/install/image_display/share/image_display/package.xml
+[0.076s] Invoked command in '/home/xyq/Desktop/ros_ws/build/image_display' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xyq/Desktop/ros_ws/build/image_display
